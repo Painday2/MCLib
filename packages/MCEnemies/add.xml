@@ -148,23 +148,6 @@
 		<object path="units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4" unload="true"/>
 	</add>
 	<add>
-		<cooked_physics path="units/payday2/characters/ene_acc_shield_small/shield_small" unload="true"/>
-		<material_config path="units/payday2/characters/ene_acc_shield_small/shield_small" unload="true"/>
-		<model path="units/payday2/characters/ene_acc_shield_small/shield_small" unload="true"/>
-		<object path="units/payday2/characters/ene_acc_shield_small/shield_small" unload="true"/>
-		<sequence_manager path="units/payday2/characters/ene_acc_shield_small/shield_small" unload="true"/>
-		<unit path="units/payday2/characters/ene_acc_shield_small/shield_small" unload="true"/>
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_1/ene_mc_shield_1" unload="true"/>
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_1/ene_mc_shield_1_husk" unload="true"/>
-		<!-- These cause crashes if you try to load them, no idea why. Tried loading the required stuff and no workie so. They load fine from normal add.xml
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_2/ene_mc_shield_2" unload="true"/>
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_2/ene_mc_shield_2_husk" unload="true"/>
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_city/ene_mc_shield_city" unload="true"/>
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_city/ene_mc_shield_city_husk" unload="true"/>
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_shield/ene_mc_zeal_swat_shield" unload="true"/>
-		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_shield/ene_mc_zeal_swat_shield_husk" unload="true"/> -->
-	</add>
-	<add>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_spook_1/ene_mc_spook_1_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/ene_mc_spook_1/body_df" unload="true"/>
@@ -262,6 +245,16 @@
 	<add>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_sniper_1/ene_mc_sniper_1" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_sniper_1/ene_mc_sniper_1_husk" unload="true"/>
+	</add>
+	<add>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_1/ene_mc_shield_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_1/ene_mc_shield_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_2/ene_mc_shield_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_2/ene_mc_shield_2_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_city/ene_mc_shield_city" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_shield_city/ene_mc_shield_city_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_shield/ene_mc_zeal_swat_shield" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_zeal_swat_shield/ene_mc_zeal_swat_shield_husk" unload="true"/>
 	</add>
 	<add>
 		<unit load="true" path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
