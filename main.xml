@@ -1,0 +1,23 @@
+<!--Read here for info about modules https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/Module-Config -->
+<mod name="MCLib" author="Mako / Painday 2" global_key="MCLib" min_lib_ver="3.0">
+    <AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
+    <Package file="packages/MCEnemies/add.xml" id="modpackages/MCEnemies"/>
+
+    <Hooks directory="Hooks">
+        <hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
+        <hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+    </Hooks>
+
+    <Localization directory="Loc" default="english.txt">
+        <localization language="english" file="english.txt"/>
+    </Localization>
+
+    <Options auto_build_menu="true">
+        <options>
+            <!--Ingame the option menu background will be halved-->
+            <merge_data area_bg="half"/>
+            <option type="bool" default_value="true" name="ExampleOption"/>
+        </options>
+    </Options>
+</mod>
