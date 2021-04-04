@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_root" materials="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcdshovel/wpn_fps_mel_mcdshovel" />
+    <graphics>
+        <object enabled="true" name="mcgshovel" />
+    </graphics>
+</dynamic_object>

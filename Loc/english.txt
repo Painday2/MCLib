@@ -1,6 +1,49 @@
 {
-	"YOUR_MOD_NAMEOptionsButtonTitleID" : "YOUR_MOD_NAME options",
-	"YOUR_MOD_NAMEOptionsButtonDescID" : "",
-    "YOUR_MOD_NAMEExampleOptionTitleID" : "A toggle!",
-    "YOUR_MOD_NAMEExampleOptionDescID" : "This toggle does something.."
+	"shovelforge_wood_desc" : "This is a shovelforge item!",
+	"shovelforge_wood_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",
+	"shovelforge_stone_desc" : "This is a shovelforge item!",
+	"shovelforge_stone_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",
+	"shovelforge_iron_desc" : "This is a shovelforge item!",
+	"shovelforge_iron_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",
+	"shovelforge_gold_desc" : "This is a shovelforge item!",
+	"shovelforge_gold_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",
+	"shovelforge_diamond_desc" : "This is a shovelforge item!",
+	"shovelforge_diamond_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",
+	"shovelforge_netherite_desc" : "This is a shovelforge item!",
+	"shovelforge_netherite_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",
+
+	"bm_melee_mcwshovel" : "Wooden Shovel",
+	"bm_melee_mcsshovel" : "Stone Shovel",
+	"bm_melee_mcishovel" : "Iron Shovel",
+	"bm_melee_mcgshovel" : "Golden Shovel",
+	"bm_melee_mcdshovel" : "Diamond Shovel",
+	"bm_melee_mcnshovel" : "Netherite Shovel",
+	
+	"bm_melee_mcwaxe" : "Wooden Axe",
+	"bm_melee_mcsaxe" : "Stone Axe",
+	"bm_melee_mciaxe" : "Iron Axe",
+	"bm_melee_mcgaxe" : "Golden Axe",
+	"bm_melee_mcdaxe" : "Diamond Axe",
+	"bm_melee_mcnaxe" : "Netherite Axe",
+
+	"bm_melee_mcwsword" : "Wooden Sword",
+	"bm_melee_mcssword" : "Stone Sword",
+	"bm_melee_mcisword" : "Iron Sword",
+	"bm_melee_mcgsword" : "Golden Sword",
+	"bm_melee_mcdsword" : "Diamond Sword",
+	"bm_melee_mcnsword" : "Netherite Sword",
+	
+	"bm_melee_mcwpickaxe" : "Wooden Pickaxe",
+	"bm_melee_mcspickaxe" : "Stone Pickaxe",
+	"bm_melee_mcipickaxe" : "Iron Pickaxe",
+	"bm_melee_mcgpickaxe" : "Golden Pickaxe",
+	"bm_melee_mcdpickaxe" : "Diamond Pickaxe",
+	"bm_melee_mcnpickaxe" : "Netherite Pickaxe",
+
+	"bm_melee_mcwhoe" : "Wooden Hoe",
+	"bm_melee_mcshoe" : "Stone Hoe",
+	"bm_melee_mcihoe" : "Iron Hoe",
+	"bm_melee_mcghoe" : "Golden Hoe",
+	"bm_melee_mcdhoe" : "Diamond Hoe",
+	"bm_melee_mcnhoe" : "Netherite Hoe"
 }

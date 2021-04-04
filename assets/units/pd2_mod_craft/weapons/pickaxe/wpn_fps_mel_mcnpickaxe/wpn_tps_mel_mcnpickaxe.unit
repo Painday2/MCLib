@@ -1,0 +1,9 @@
+<unit type="wpn" slot="1" >
+    <object file="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_tps_mel_mcnpickaxe" />
+	<dependencies>
+		<depends_on bnk="soundbanks/melee_mining_pick"/>
+	</dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

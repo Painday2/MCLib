@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_root" materials="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_tps_mel_mcdsword" />
+    <graphics>
+        <object enabled="true" name="sword" />
+    </graphics>
+</dynamic_object>

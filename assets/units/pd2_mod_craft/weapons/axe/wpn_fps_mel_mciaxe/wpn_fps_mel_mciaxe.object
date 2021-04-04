@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_root" materials="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mciaxe/wpn_fps_mel_mciaxe" />
+    <graphics>
+        <object enabled="true" name="axe" />
+    </graphics>
+</dynamic_object>

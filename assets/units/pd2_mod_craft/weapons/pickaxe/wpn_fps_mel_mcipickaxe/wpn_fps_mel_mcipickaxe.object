@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_root" materials="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcipickaxe/wpn_fps_mel_mcipickaxe" />
+    <graphics>
+        <object enabled="true" name="pickaxe" />
+    </graphics>
+</dynamic_object>
