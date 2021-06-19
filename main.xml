@@ -1,5 +1,5 @@
 <!--Read here for info about modules https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/Module-Config -->
-<mod name="MCLib" author="Mako / Painday 2" global_key="MCLib" core_class="/Hooks/misc/checkmodsfolder.lua" min_lib_ver="3.0">
+<mod name="MCLib" author="Mako / Painday 2" global_key="MCLib" min_lib_ver="3.0">
     <AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
     <Package file="packages/MCEnemies/add.xml" id="modpackages/MCEnemies"/>
 
@@ -10,6 +10,7 @@
 		<hook file="weapons/blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager"/>
 		<hook file="weapons/lootdroptweakdata.lua" source_file="lib/tweak_data/lootdroptweakdata"/>
 		<hook file="weapons/meleeweaponstweakdata.lua" source_file="lib/tweak_data/blackmarket/meleeweaponstweakdata"/>
+		<hook file="misc/loadsounds.lua" source_file="lib/setups/gamesetup"/>
     </Hooks>
 
 	<Achievements id="mc_branchbank_ach">
@@ -23,7 +24,7 @@
     <Localization directory="Loc" default="english.txt">
         <localization language="english" file="english.txt"/>
     </Localization>
-    
+
     <AddFiles file="packages/weapons.xml"/>
 	<Melee based_on="shovel" dlc="shovelforge_wood" id="mcwshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_tps_mel_mcwshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_fps_mel_mcwshovel"/>
 	<Melee based_on="shovel" dlc="shovelforge_stone" id="mcsshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_tps_mel_mcsshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_fps_mel_mcsshovel"/>
