@@ -1,4 +1,11 @@
 <mod name="MCLib" author="Mako / Painday 2" global_key="MCLib" min_lib_ver="3.0">
+	<load_first>
+		<value_node value="Dependencies"/>
+		<value_node value="Achievements"/>
+		<value_node value="Hooks"/>
+		<value_node value="Classes"/>
+	</load_first>
+
     <!-- <AssetUpdates id="30552" version="1.0" provider="modworkshop"/>-->
     <Package file="packages/MCEnemies/add.xml" id="modpackages/MCEnemies"/>
 
@@ -13,54 +20,22 @@
     </Hooks>
 
 	<Achievements id="mc_branchbank_ach">
+		<achievement id="wood" rank="1"/>
 		<achievement id="stone" rank="1"/>
 		<achievement id="iron" rank="2"/>
 		<achievement id="gold" rank="2"/>
 		<achievement id="diamond" rank="3"/>
-		<achievement id="netherite" rank="4"/>
+		<achievement id="netherite" rank="4" hidden_achievement="true"/>
 	</Achievements>
 
     <Localization directory="Loc" default="english.txt">
         <localization language="english" file="english.txt"/>
     </Localization>
 
-    <AddFiles file="packages/weapons.xml"/>
-	<Melee based_on="shovel" dlc="shovelforge_wood" id="mcwshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_tps_mel_mcwshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_fps_mel_mcwshovel"/>
-	<Melee based_on="shovel" dlc="shovelforge_stone" id="mcsshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_tps_mel_mcsshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_fps_mel_mcsshovel"/>
-	<Melee based_on="shovel" dlc="shovelforge_iron" id="mcishovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcishovel/wpn_tps_mel_mcishovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcishovel/wpn_fps_mel_mcishovel"/>
-	<Melee based_on="shovel" dlc="shovelforge_gold" id="mcgshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
-	<Melee based_on="shovel" dlc="shovelforge_diamond" id="mcdshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcdshovel/wpn_tps_mel_mcdshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcdshovel/wpn_fps_mel_mcdshovel"/>
-	<Melee based_on="shovel" dlc="shovelforge_netherite" id="mcnshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcnshovel/wpn_tps_mel_mcnshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcnshovel/wpn_fps_mel_mcnshovel"/>
-	<Melee based_on="bullseye" dlc="shovelforge_wood" id="mcwaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcwaxe/wpn_tps_mel_mcwaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcwaxe/wpn_fps_mel_mcwaxe"/>
-	<Melee based_on="bullseye" dlc="shovelforge_stone" id="mcsaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcsaxe/wpn_tps_mel_mcsaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcsaxe/wpn_fps_mel_mcsaxe"/>
-	<Melee based_on="bullseye" dlc="shovelforge_iron" id="mciaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mciaxe/wpn_tps_mel_mciaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mciaxe/wpn_fps_mel_mciaxe"/>
-	<Melee based_on="bullseye" dlc="shovelforge_gold" id="mcgaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_tps_mel_mcgaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_fps_mel_mcgaxe"/>
-	<Melee based_on="bullseye" dlc="shovelforge_diamond" id="mcdaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_tps_mel_mcdaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_fps_mel_mcdaxe"/>
-	<Melee based_on="bullseye" dlc="shovelforge_netherite" id="mcnaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_tps_mel_mcnaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_fps_mel_mcnaxe"/>
-	<Melee based_on="mining_pick" dlc="shovelforge_wood" id="mcwpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcwpickaxe/wpn_tps_mel_mcwpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcwpickaxe/wpn_fps_mel_mcwpickaxe"/>
-	<Melee based_on="mining_pick" dlc="shovelforge_stone" id="mcspickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcspickaxe/wpn_tps_mel_mcspickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcspickaxe/wpn_fps_mel_mcspickaxe"/>
-	<Melee based_on="mining_pick" dlc="shovelforge_iron" id="mcipickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcipickaxe/wpn_tps_mel_mcipickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcipickaxe/wpn_fps_mel_mcipickaxe"/>
-	<Melee based_on="mining_pick" dlc="shovelforge_gold" id="mcgpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_tps_mel_mcgpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_fps_mel_mcgpickaxe"/>
-	<Melee based_on="mining_pick" dlc="shovelforge_diamond" id="mcdpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_tps_mel_mcdpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_fps_mel_mcdpickaxe"/>
-	<Melee based_on="mining_pick" dlc="shovelforge_netherite" id="mcnpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_tps_mel_mcnpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_fps_mel_mcnpickaxe"/>
-	<Melee based_on="machete" dlc="shovelforge_wood" id="mcwsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcwsword/wpn_tps_mel_mcwsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcwsword/wpn_fps_mel_mcwsword"/>
-	<Melee based_on="machete" dlc="shovelforge_stone" id="mcssword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcssword/wpn_tps_mel_mcssword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcssword/wpn_fps_mel_mcssword"/>
-	<Melee based_on="machete" dlc="shovelforge_iron" id="mcisword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcisword/wpn_tps_mel_mcisword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcisword/wpn_fps_mel_mcisword"/>
-	<Melee based_on="machete" dlc="shovelforge_gold" id="mcgsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_tps_mel_mcgsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_fps_mel_mcgsword"/>
-	<Melee based_on="machete" dlc="shovelforge_diamond" id="mcdsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_tps_mel_mcdsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_fps_mel_mcdsword"/>
-	<Melee based_on="machete" dlc="shovelforge_netherite" id="mcnsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_tps_mel_mcnsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_fps_mel_mcnsword"/>
-	<Melee based_on="iceaxe" dlc="shovelforge_wood" id="mcwhoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcwhoe/wpn_tps_mel_mcwhoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcwhoe/wpn_fps_mel_mcwhoe"/>
-	<Melee based_on="iceaxe" dlc="shovelforge_stone" id="mcshoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcshoe/wpn_tps_mel_mcshoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcshoe/wpn_fps_mel_mcshoe"/>
-	<Melee based_on="iceaxe" dlc="shovelforge_iron" id="mcihoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcihoe/wpn_tps_mel_mcihoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcihoe/wpn_fps_mel_mcihoe"/>
-	<Melee based_on="iceaxe" dlc="shovelforge_gold" id="mcghoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcghoe/wpn_tps_mel_mcghoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcghoe/wpn_fps_mel_mcghoe"/>
-	<Melee based_on="iceaxe" dlc="shovelforge_diamond" id="mcdhoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcdhoe/wpn_tps_mel_mcdhoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcdhoe/wpn_fps_mel_mcdhoe"/>
-	<Melee based_on="iceaxe" dlc="shovelforge_netherite" id="mcnhoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcnhoe/wpn_tps_mel_mcnhoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcnhoe/wpn_fps_mel_mcnhoe"/>
-	
     <Options auto_build_menu="true">
         <options>
-            <!--Ingame the option menu background will be halved-->
             <merge_data area_bg="half"/>
-            <option type="bool" default_value="true" name="ExampleOption"/>
+            <option type="bool" default_value="true" name="EnableWeapons"/>
         </options>
     </Options>
 </mod>

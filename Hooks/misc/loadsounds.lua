@@ -5,4 +5,7 @@ if BeardLib then
     elseif current_level._mod and current_level._mod.global then
         ModCore:new(ModPath .. "sounds.xml", true, true)
     end
+    if MCLib.Options:GetValue("EnableWeapons") then
+        ModCore:new(ModPath .. "weapons.xml", true, true)
+    end
 end
