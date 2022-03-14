@@ -1,3 +1,4 @@
+<!--THIS HAS TO BE IN ROOT OR IT WON'T LOAD THE SOUNDS!!!-->
 <mod name="MCLibSounds" min_lib_ver="3.0">
     <Sounds directory="assets/sounds">
 		<sound id="mc_jewelry_brief2" path="brief.ogg"/>
