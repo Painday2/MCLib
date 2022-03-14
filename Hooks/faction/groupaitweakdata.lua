@@ -1,4 +1,4 @@
-local enable_debug_prints = true
+local enable_debug_prints = false
 -------------------------------------------------------------------------------
 -- Faction adding code. Don't touch this unless you know what your doing. :) --
 -------------------------------------------------------------------------------

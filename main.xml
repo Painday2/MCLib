@@ -1,6 +1,5 @@
-<!--Read here for info about modules https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/Module-Config -->
 <mod name="MCLib" author="Mako / Painday 2" global_key="MCLib" min_lib_ver="3.0">
-    <AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
+    <!-- <AssetUpdates id="30552" version="1.0" provider="modworkshop"/>-->
     <Package file="packages/MCEnemies/add.xml" id="modpackages/MCEnemies"/>
 
     <Hooks directory="Hooks">

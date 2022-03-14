@@ -1,7 +1,0 @@
-{
-	"name" : "YOUR_MOD",
-	"description" : "YOUR_MOD_DESCRIPTION",
-	"author" : "YOUR_NAME",
-	"contact" : "YOUR_CONTACT_DETAILS",
-	"version" : "1.0"
-}
