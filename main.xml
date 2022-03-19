@@ -1,10 +1,4 @@
 <mod name="MCLib" author="Mako / Painday 2" global_key="MCLib" min_lib_ver="3.0">
-	<load_first>
-		<value_node value="Dependencies"/>
-		<value_node value="Achievements"/>
-		<value_node value="Hooks"/>
-		<value_node value="Classes"/>
-	</load_first>
 
     <!-- <AssetUpdates id="30552" version="1.0" provider="modworkshop"/>-->
     <Package file="packages/MCEnemies/add.xml" id="modpackages/MCEnemies"/>

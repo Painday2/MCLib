@@ -1,4 +1,7 @@
 <table directory="assets">
+	<add>
+		<texture path="units/pd2_mod_craft/guis/items_atlas" unload="true"/>
+	</add>
     <add>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36_husk" unload="true"/>
