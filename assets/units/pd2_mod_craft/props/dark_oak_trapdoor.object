@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/material_masterjc" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/dark_oak_trapdoor" />
+	
+	<bodies>
+		<body name="trapdoor_closed" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="trapdoor_closed" />
+		</body>
+		<body name="trapdoor_opened" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="trapdoor_open" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_all" enabled="true">
+			<object	name="trapdoor_closed"			enabled="true" shadow_caster="true"/>
+			<object	name="trapdoor_open"			enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

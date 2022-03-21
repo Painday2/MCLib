@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/bankarch" orientation_object="rp_root"/>
+	<sequence_manager file="units/pd2_mod_craft/props/pickaxe_drill" />
+    <animations>
+		<animation_group name="anim" enabled="false" loop="true" >
+			<object name="anim_pickaxe" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body enabled="true" template="static" name="body_static" >
+			<object collision_type="box" name="blastfurn" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="pickaxe" 		enabled="false" />
+		<object name="blastfurn" 	enabled="false" />
+        <object name="timer_gui" 	enabled="false"  />
+		<object name="g_outline"	enabled="true"  />
+	</graphics>
+</dynamic_object>

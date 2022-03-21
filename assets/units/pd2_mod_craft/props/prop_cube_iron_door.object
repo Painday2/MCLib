@@ -1,0 +1,27 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/props/prop_cube_iron_door" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/prop_cube_iron_door" />
+	<bodies>
+		<body name="static_body" enabled="false" template="static">
+			<object name="g_g" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="door_open" enabled="true" template="static">
+			<object name="g_door_open" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="door_closed" enabled="true" template="static">
+			<object name="g_door_closed" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="graphics" culling_object="g_g" enabled="false">
+			<object	name="g_g"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+		<graphic_group name="door_open" culling_object="g_door_open" enabled="true">
+			<object	name="g_door_open"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+		<graphic_group name="door_closed" culling_object="g_door_closed" enabled="true">
+			<object	name="g_door_closed"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

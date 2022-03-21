@@ -1,0 +1,11 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/bankarch" orientation_object="rp_root"/>
+	<bodies>
+		<body enabled="true" template="static" name="body_static" >
+			<object collision_type="box" name="furnace" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="furnace" 		enabled="true" />
+	</graphics>
+</dynamic_object>

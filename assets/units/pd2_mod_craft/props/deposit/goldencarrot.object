@@ -1,0 +1,16 @@
+<dynamic_object>
+<diesel materials="units/pd2_mod_craft/material_masterjc" orientation_object="rp_root" />
+<bodies>
+<body name="static_body" enabled="true" template="static">
+<object name="goldencarrot" collision_type="mesh_mopp" padding="-2.5"/>
+</body>
+</bodies>
+<decal_surfaces>
+<decal_mesh name="goldencarrot" enabled="true"/>
+</decal_surfaces>
+<graphics>
+<graphic_group name="graphics" enabled="true">
+<object	name="goldencarrot"	enabled="true" shadow_caster="true"/>
+</graphic_group>
+</graphics>
+</dynamic_object>

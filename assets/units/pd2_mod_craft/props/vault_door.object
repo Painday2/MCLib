@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/bankarch" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/vault_door" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="door" enabled="true" collision_type="box" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_all" enabled="true">
+            <object	name="door"			enabled="true" shadow_caster="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

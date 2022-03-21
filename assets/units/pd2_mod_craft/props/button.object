@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/material_masterjc" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/button" />
+	
+	<bodies>
+		<body name="button_body" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="button" />
+		</body>
+		<body name="button_open" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="button_pressed" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_all" enabled="true">
+			<object	name="button"			enabled="true" shadow_caster="true"/>
+			<object	name="button_pressed"			enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

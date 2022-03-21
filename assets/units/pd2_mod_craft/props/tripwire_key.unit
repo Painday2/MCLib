@@ -1,0 +1,15 @@
+<unit type="mine" slot="1">
+	<object file="units/pd2_mod_craft/props/tripwire_key" />
+	<network sync="spawn" />
+	<extensions>
+		<extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+	    <extension name="interaction" class="SpecialEquipmentInteractionExt" >
+			<var name="_special_equipment" value="tripwire_key" />
+			<var name="_remove_on_interact" value="true" />
+			<var name="tweak_data" value="pickup_tripwire_key" />
+			<var name="_global_event" value="keycard" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

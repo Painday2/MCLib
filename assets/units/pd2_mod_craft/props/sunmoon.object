@@ -1,0 +1,24 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/props/sunandclouds" orientation_object="rp_daycycle" />
+	<sequence_manager file="units/pd2_mod_craft/props/sunmoon" />
+	<animations>
+		<animation_group name="move">
+			<object name="anim_sun_moon"/>
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="anim_body" enabled="true" template="animated">
+			<object name="rp_daycycle"/>
+			<object name="anim_sun_moon"/>
+			<object name="SunMesh" enabled="true" collision_type="box" />
+			<object name="MoonMesh" enabled="true" collision_type="box" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_all" enabled="true">
+            <object	name="SunMesh"			enabled="true" shadow_caster="false"/>
+			<object	name="MoonMesh"			enabled="true" shadow_caster="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

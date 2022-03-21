@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mtl_diarmor" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" unique="true" version="2">
+    <diffuse_texture        file="units/pd2_mod_craft/props/textures/normal_cam"/>
+    <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+    <variable value="0 0 0" type="vector3" name="contour_color"/>
+    <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

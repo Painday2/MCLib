@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mtl_cube" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture	file="units/pd2_mod_craft/props/prop_cube_crafting_table_df"/>
+    </material>
+</materials>

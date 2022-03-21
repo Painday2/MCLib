@@ -1,0 +1,14 @@
+<unit type="mine" slot="1">
+	<object file="units/pd2_mod_craft/props/lavabucket" orientation_object="rp_root" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
+            <var name="_special_equipment" value="lava_bucket" />
+            <var name="_remove_on_interact" value="true" />
+			<var name="_interact_object" value="rp_root"/>
+            <var name="tweak_data" value="mc_pickup_lava" />
+        </extension>
+	</extensions>
+</unit>

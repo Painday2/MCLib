@@ -1,0 +1,152 @@
+<table>
+	<unit>
+        <variables>
+			<var_spawned_bag value="0"/>
+		</variables>
+		<filter name="'filter_bag_not_spawned'">
+			<check value="vars.var_spawned_bag == 0"/>
+		</filter>
+		<sequence editable_state="true" name="'spawn_bagable_items'" triggable="true">
+			<run_sequence filter="'filter_bag_not_spawned'" name=" 'int_seq_spawn_bag_v1'"/>
+            <run_sequence filter="'filter_bag_not_spawned'" name=" 'int_seq_spawn_bag_v2'"/>
+			<set_variables var_spawned_bag="1"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_bag_v1'" triggable="false">
+			<run_sequence name=" 'int_seq_spawn_'..pick('u01','u02','u03','u04','u05','u06','u07','u08','u09','u10','u11','u12','u13','u14','u15','u16','u17','u18')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_bag_v2'" triggable="false">
+			<run_sequence name=" 'int_seq_spawn_'..pick('L01','L02','L03','L04','L05','L06','L07','L08','L09','L10','L11','L12','L13','L14','L15','L16','L17','L18')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u01'" triggable="false">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u02'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u03'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u04'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u05'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/clock'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u06'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/compass'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u07'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/elytra'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u08'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldenapple'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u09'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldencarrot'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u10'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldnugget'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u11'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/horsearmor'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u12'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/ironnugget'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u13'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/kitteh'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u14'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/musicdisk'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u15'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/netherstar'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u16'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/potion'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u17'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/quartz'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_u18'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/totemofundying'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+
+		<sequence editable_state="false" name="'int_seq_spawn_L01'" triggable="false">
+            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L02'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L03'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L04'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L05'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/clock'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L06'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/compass'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L07'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/elytra'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L08'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldenapple'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L09'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldencarrot'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L10'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldnugget'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L11'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/horsearmor'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L12'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/ironnugget'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L13'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/kitteh'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L14'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/musicdisk'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L15'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/netherstar'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L16'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/potion'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L17'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/quartz'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_L18'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/totemofundying'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'opened_int'" triggable="true">
+			<interaction enabled="false"/>
+            <run_sequence    name="'open_animation'"/>
+		</sequence>
+		<sequence editable_state="true" name="'closed'" triggable="true">
+			<interaction enabled="true"/>
+            <run_sequence    name="'close_animation'"/>
+		</sequence>
+		<sequence name="'interact'" triggable="true">
+			<run_sequence name=" 'spawn_bagable_items'"/>
+			<run_sequence name="'opened_int'"/>
+		</sequence>
+		<sequence name="'disable_interact'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_animation'" triggable="true">
+			<animation_group enabled="true" name="'anim'" from="0/30" to="30/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'close_animation'" triggable="true">
+			<animation_group enabled="true" name="'anim'" speed="-1" from="30/30" to="0/30"/>
+		</sequence>
+	</unit>
+</table>

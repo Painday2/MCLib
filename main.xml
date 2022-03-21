@@ -2,6 +2,7 @@
 
     <!-- <AssetUpdates id="30552" version="1.0" provider="modworkshop"/>-->
     <Package file="packages/MCEnemies/add.xml" id="modpackages/MCEnemies"/>
+    <Package file="packages/Maps/mc_branchbank.xml" id="modpackages/mc_branchbank"/>
 
     <Hooks directory="Hooks">
         <hook file="faction/groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
@@ -22,6 +23,17 @@
 		<achievement id="diamond" rank="3"/>
 		<achievement id="netherite" rank="4" hidden_achievement="true"/>
 	</Achievements>
+
+    <AddFiles directory="assets">
+		<font force="true" load="true" path="fonts/minecraft"/>
+		<texture force="true" load="true" path="fonts/minecraft"/>
+		<font force="true" load="true" path="fonts/minecraftia"/>
+		<texture force="true" load="true" path="fonts/minecraftia"/>
+		<font force="true" load="true" path="fonts/minecraftia_outline"/>
+		<texture force="true" load="true" path="fonts/minecraftia_outline"/>
+		<font force="true" load="true" path="fonts/minecraftia_shadow"/>
+		<texture force="true" load="true" path="fonts/minecraftia_shadow"/>
+	</AddFiles>
 
     <Localization directory="Loc" default="english.txt">
         <localization language="english" file="english.txt"/>

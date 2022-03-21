@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mtl_cube" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/pd2_mod_craft/props/textures/glass"/>
+        <variable value="1" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

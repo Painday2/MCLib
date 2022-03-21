@@ -1,0 +1,239 @@
+<table>
+	<unit>
+		<variables>
+			<var_int value="0"/>
+		</variables>
+		<filter name="'check_state_0'">
+			<check value="vars.var_int == 0"/>
+		</filter>
+		<filter name="'check_state_1'">
+			<check value="vars.var_int == 1"/>
+		</filter>
+		<filter name="'check_state_2'">
+			<check value="vars.var_int == 2"/>
+		</filter>
+		<filter name="'check_state_3'">
+			<check value="vars.var_int == 3"/>
+		</filter>
+		<filter name="'check_state_4'">
+			<check value="vars.var_int == 4"/>
+		</filter>
+		<filter name="'check_state_5'">
+			<check value="vars.var_int == 5"/>
+		</filter>
+		<filter name="'check_state_90sec'">
+			<check value="vars.var_int == 6"/>
+		</filter>
+		<filter name="'check_state_10sec'">
+			<check value="vars.var_int == 7"/>
+		</filter>
+		<filter name="'check_state_25sec'">
+			<check value="vars.var_int == 8"/>
+		</filter>
+		<filter name="'check_state_60sec'">
+			<check value="vars.var_int == 9"/>
+		</filter>
+		<filter name="'check_state_120sec'">
+			<check value="vars.var_int == 10"/>
+		</filter>
+		<variables>
+			<var_toggle value="0"/>
+		</variables>
+		<filter name="'filter_toggle_on'">
+			<check value="vars.var_toggle == 1"/>
+		</filter>
+		<filter name="'filter_toggle_off'">
+			<check value="vars.var_toggle == 0"/>
+		</filter>
+		<sequence editable_state="true" name="'state_drill_shock_toggled_on'" triggable="true">
+			<set_variables var_toggle="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_drill_shock_toggled_off'" triggable="true">
+			<set_variables var_toggle="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_0'" triggable="true">
+			<set_variables var_int="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_1'" triggable="true">
+			<set_variables var_int="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_2'" triggable="true">
+			<set_variables var_int="2"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_3'" triggable="true">
+			<set_variables var_int="3"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_4'" triggable="true">
+			<set_variables var_int="4"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_30s'" triggable="true">
+			<set_variables var_int="5"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_90s'" triggable="true">
+			<set_variables var_int="6"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_10s'" triggable="true">
+			<set_variables var_int="7"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_25s'" triggable="true">
+			<set_variables var_int="8"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_60s'" triggable="true">
+			<set_variables var_int="9"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_120s'" triggable="true">
+			<set_variables var_int="10"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_jam_times_to_1'" triggable="true">
+			<function extension="'timer_gui'" function="'set_jam_times'" param1="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_jam_times_to_2'" triggable="true">
+			<function extension="'timer_gui'" function="'set_jam_times'" param1="2"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_jam_times_to_4'" triggable="true">
+			<function extension="'timer_gui'" function="'set_jam_times'" param1="4"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'drill'"/>
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="false" name="'pickaxe'"/>
+			<object enabled="false" name="'blastfurn'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show_prop_only'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+			<interaction enabled="false"/>
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="true" name="'pickaxe'"/>
+			<object enabled="true" name="'blastfurn'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_enable_interaction'" triggable="false">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show_outline_only'" triggable="true">
+			<object enabled="true" name="'g_outline'"/>
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'no_interact'"/>
+			<run_sequence name="'state_hide'"/>
+			<run_sequence name="'int_seq_enable_interaction'" start_time="1/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_hide'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="false" name="'pickaxe'"/>
+			<object enabled="false" name="'blastfurn'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_attention_disabled'" triggable="true">
+			<function extension="'base'" function="'set_attention_state'" param1="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'activate'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="60/30"/>
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="false" name="'pickaxe'"/>
+			<object enabled="false" name="'blastfurn'"/>
+		</sequence>
+		<sequence editable_state="true" name="'deactivate'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="false" name="'pickaxe'"/>
+			<object enabled="false" name="'blastfurn'"/>
+			<graphic_group name="'icon'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'reset'" triggable="true">
+			<function extension="'timer_gui'" function="'reset'"/>
+		</sequence>
+		<sequence editable_state="true" name="'destroy'" triggable="true">
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="false" name="'pickaxe'"/>
+			<object enabled="false" name="'blastfurn'"/>
+			<function extension="'timer_gui'" function="'done'"/>
+			<function extension="'timer_gui'" function="'hide'" start_time="1/30"/>
+			<function extension="'base'" function="'destroy'" start_time="2/30"/>
+		</sequence>
+		<sequence name="'power_off'" triggable="true">
+			<function extension="'timer_gui'" function="'set_powered'" param1="false"/>
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+		</sequence>
+		<sequence name="'power_on'" triggable="true">
+			<function extension="'timer_gui'" function="'set_powered'" param1="true"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="60/30"/>
+		</sequence>
+		<sequence name="'set_jammed'" triggable="true">
+			<function extension="'timer_gui'" function="'set_jammed'" param1="true"/>
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+		</sequence>
+		<sequence name="'jammed_trigger'">
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+		</sequence>
+		<sequence name="'timer_done'">
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+			<body enabled="false" name="'body_static'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_show_texured'" once="true" triggable="false">
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="true" name="'pickaxe'"/>
+			<object enabled="true" name="'blastfurn'"/>
+		</sequence>
+		<sequence name=" 'interact' ">
+			<run_sequence filter="'filter_toggle_off'" name="'start_drill'"/>
+			<run_sequence filter="'filter_toggle_on'" name="'done_shock'"/>
+		</sequence>
+		<sequence name="'start_drill'">
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="60/30"/>
+			<run_sequence name="'int_seq_show_texured'"/>
+			<function extension="'timer_gui'" function="'set_visible'" param1="true"/>
+			<run_sequence filter="'check_state_0'" name="'int_seq_state_0'"/>
+			<run_sequence filter="'check_state_1'" name="'int_seq_state_1'"/>
+			<run_sequence filter="'check_state_2'" name="'int_seq_state_2'"/>
+			<run_sequence filter="'check_state_3'" name="'int_seq_state_3'"/>
+			<run_sequence filter="'check_state_4'" name="'int_seq_state_4'"/>
+			<run_sequence filter="'check_state_5'" name="'int_seq_state_5'"/>
+			<run_sequence filter="'check_state_90sec'" name="'int_seq_state_90sec'"/>
+			<run_sequence filter="'check_state_10sec'" name="'int_seq_state_10sec'"/>
+			<run_sequence filter="'check_state_25sec'" name="'int_seq_state_25sec'"/>
+			<run_sequence filter="'check_state_60sec'" name="'int_seq_state_60sec'"/>
+			<run_sequence filter="'check_state_120sec'" name="'int_seq_state_120sec'"/>
+			<sound action="'play'" event="'drill_apply_end'" object="'interact'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_0'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'240'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_1'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'360'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_2'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'10'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_3'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'60'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_4'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'120'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_5'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'30'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_90sec'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'90'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_10sec'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'10'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_25sec'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'25'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_60sec'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'60'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_120sec'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'120'"/>
+		</sequence>
+	</unit>
+	<sequence editable_state="false" name="'done_shock'" triggable="false"/>
+</table>

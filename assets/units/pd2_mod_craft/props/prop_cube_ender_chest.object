@@ -1,0 +1,24 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/props/prop_cube_ender_chest" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/prop_cube_ender_chest" />
+	
+	<bodies>
+		<body name="chest_body" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="chest_bottom" />
+		</body>
+		<body name="chest_top" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="chest_top" />
+		</body>
+		<body name="chest_open" enabled="true" template="static">
+			<object collision_type="mesh_mopp" name="chest_open" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_all" enabled="true">
+			<object	name="chest_open			enabled="true" shadow_caster="true"/>
+			<object	name="chest_bottom"			enabled="true" shadow_caster="true"/>
+			<object	name="chest_top"			enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,1005 @@
+<materials version="3">
+    <material name="dark_oak_trapdoor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/dark_oak_trapdoor"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="nether_brick" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/nether_bricks"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="black_shulker_box" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/black_shulker_box"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="bookshelf" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/bookshelf"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_jungle_lower" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_jungle_lower"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="quartz_side_chiseled" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/quartz_side_chiseled"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="red_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/red_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="spruce_trapdoor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/spruce_trapdoor"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_dark_oak_upper" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_dark_oak_upper"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="light_blue_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/light_blue_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="observer_back" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/observer_back"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="sign_oak" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/sign_oak"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="wool_white" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/wool_white"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="loom_bottom" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/loom_bottom"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_birch_lower" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_birch_lower"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="light_gray_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/light_gray_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="log_acacia_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/log_acacia_side"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="stick" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/stick"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_spruce_upper" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_spruce_upper"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="glass_light_gray" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/glass_light_gray"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="log_oak_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/log_oak_side"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="wool_light_gray" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/wool_light_gray"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="smooth_stone_slab_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/smooth_stone_slab_side"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="furnace_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/furnace_top"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="plank_oak" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/plank_oak"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="blue_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/blue_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="glass" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/glass"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="polished_diorite" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/polished_diorite"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="glass_gray" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/glass_gray"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="purpur_block" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/purpur_block"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="furnace_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/furnace_side"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="black_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/black_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="gray_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/gray_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="red_glazed_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/red_glazed_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="lapis_lazuli_block" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/lapis_lazuli_block"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="flowerpot" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/flowerpot"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="mossy_stone_bricks" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/mossy_stone_bricks"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="wool_green" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/wool_green"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="white_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/white_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="plank_birch" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/plank_birch"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="iron_block" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/iron_block"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="log_birch_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/log_birch_side"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="dispenser_front_vertical" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/dispenser_front_vertical"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="oak_trapdoor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/oak_trapdoor"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="prismarine_dark" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/prismarine_dark"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="quartz_bottom" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/quartz_bottom"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="observer_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/observer_top"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="plank_jungle" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/plank_jungle"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="netherrack" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/netherrack"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="polished_granite" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/polished_granite"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="red_bed" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/red_bed"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="iron_bars" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE:NORMALMAP" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/iron_bars"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="loom_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/loom_side"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="vines" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/vines"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="white_concrete_powder" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/white_concrete_powder"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="loom_front" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/loom_front"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="dirt" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/dirt"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="brown_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/brown_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="loom_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/loom_top"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_birch_upper" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_birch_upper"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="light_gray_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/light_gray_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="water" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/water"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_wood_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_wood_top"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="stripped_jungle_log" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/stripped_jungle_log"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="stone" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/stone"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="granite" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/granite"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="glass_white" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/glass_white"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="gray_glazed_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/gray_glazed_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="acacia_trapdoor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/acacia_trapdoor"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="birch_trapdoor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/birch_trapdoor"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="polished_andesite" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/polished_andesite"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="yellow_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/yellow_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="white_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/white_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="dead_horn_coral_block" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/dead_horn_coral_block"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="stripped_spruce_log" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/stripped_spruce_log"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_dark_oak_lower" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_dark_oak_lower"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="obsidian" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/obsidian"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="observer_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/observer_side"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="log_oak_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/log_oak_top"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="plank_dark_oak" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/plank_dark_oak"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="black_glazed_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/black_glazed_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="wool_red" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/wool_red"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="cyan_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/cyan_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="green_concrete" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/green_concrete"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="plank_acacia" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/plank_acacia"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="bedrock" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/bedrock"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="quartz_top_chiseled" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/quartz_top_chiseled"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_wood_bottom" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_wood_bottom"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="leaves_oak" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/leaves_oak"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="wool_blue" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/wool_blue"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="carpet_brown" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/wool_brown"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="smooth_stone" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/smooth_stone"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="stone_slab_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/smooth_stone"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="andesite" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/andesite"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="dispenser_front" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/dispenser_front"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="redstone_lamp_on" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/redstone_lamp_on"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="diorite" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/diorite"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_jungle_upper" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_jungle_upper"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="plank_spruce" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/plank_spruce"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="stone_bricks" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/stone_bricks"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="fern" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE:NORMALMAP" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/fern"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="mossy_cobblestone" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/mossy_cobblestone"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="black_concrete_powder" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/black_concrete_powder"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="light_gray_glazed_terracotta" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/light_gray_glazed_terracotta"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="redstone_lamp_off" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/redstone_lamp_off"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="door_spruce_lower" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/door_spruce_lower"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="brick" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/brick"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="cornflower" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE:NORMALMAP" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/cornflower"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="red_sandstone" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/red_sandstone"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="diamond" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/diamond"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="emerald" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/emerald"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="lever" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+    <diffuse_texture        file="units/pd2_mod_craft/props/textures/lever"/>
+    <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+    <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+    <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    <variable value="0.5" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="cobblestone" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+    <diffuse_texture        file="units/pd2_mod_craft/props/textures/cobblestone"/>
+    <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+    <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+    <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    <variable value="0.5" type="scalar" name="alpha_ref"/>
+    </material>
+	<material name="sugar" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/gunpowder"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material name="mtl_iron" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/ironingot"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+	<material name="mtr_stand" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/armor_stand"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+	<material name="axe" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/netherite_axe"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+	<material name="mtl_diarmor_inside" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+    <diffuse_texture        file="units/pd2_mod_craft/props/textures/netherite_armor"/>
+    <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+    <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+    <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    <variable value="0.5" type="scalar" name="alpha_ref"/>
+    </material>
+	<material name="mtl_diarmor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+    <diffuse_texture        file="units/pd2_mod_craft/props/textures/netherite_armor"/>
+    <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+    <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+    <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    <variable value="0.5" type="scalar" name="alpha_ref"/>
+    </material>
+	    <material name="tripwire" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/tripwire_key"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+	<material name="eye_of_ender" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/eye_of_ender"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_bottom" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_bottom"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_front" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_front"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_side"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_top"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_bottom" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_bottom"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_front" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_front"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_side"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_top"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="clock" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/clock"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="compass" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/compass"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="elytra" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/elytra"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="goldenapple" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/goldenapple"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="goldencarrot" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/goldencarrot"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="goldnugget" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/goldnugget"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="horsearmor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/horsearmor"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="ironnugget" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/ironnugget"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="musicdisk" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/musicdisk"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="netherstar" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/netherstar"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="potion" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/potion"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="quartz" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/quartz"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="totemofundying" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/totemofundying"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="kitteh" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/kitteh"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="bucket" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/lavabucket"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+</materials>

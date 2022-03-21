@@ -1,0 +1,16 @@
+<materials version="3">
+    <material name="mtl_cube" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture	file="units/pd2_mod_craft/props/prop_cube_oak_door_df"/>
+    </material>
+    <material name="mtl_door" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture	file="units/pd2_mod_craft/props/prop_cube_oak_door_df"/>
+    </material>
+    <material name="mtl_door_closed" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture	file="units/pd2_mod_craft/props/prop_cube_oak_door_df"/>
+    </material>
+    <material name="mtr_lockpick" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/lockpick_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+</materials>

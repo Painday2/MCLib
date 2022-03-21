@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/material_masterjc" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/stick" />
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="stick" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="graphics" enabled="true">
+			<object	name="stick"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,12 @@
+<unit type="mine" slot="1">
+	<object file="units/pd2_mod_craft/props/deposit_box" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="MCInteractionExt">
+			<var name="tweak_data" value="axe_deposit" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

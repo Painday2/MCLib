@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/material_masterjc" orientation_object="rp_root"/>
+	<sequence_manager file="units/pd2_mod_craft/props/deposit_box" />
+    <animations>
+		<animation_group name="anim" enabled="false" loop="false" >
+			<object name="anim_open" />
+		</animation_group>
+	</animations>
+	<bodies>
+        <body enabled="false" template="animated" name="body_static" >
+            <object name="anim_open"/>
+			<object collision_type="box" name="door" />
+		</body>
+		<body enabled="true" template="static" name="body_static" >
+			<object collision_type="mesh_mopp" name="body" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="body" 		enabled="true" />
+        <object name="door" 		enabled="true" />
+	</graphics>
+</dynamic_object>

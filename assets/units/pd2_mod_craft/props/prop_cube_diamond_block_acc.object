@@ -1,0 +1,6 @@
+<dynamic_object>
+  <diesel materials="units/pd2_mod_craft/props/prop_cube_diamond_block_acc" orientation_object="rp_bag" />
+  <graphics>
+    <object name="g_bag" enabled="true" />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/props/prop_cube_chest_glass" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_craft/props/prop_cube_chest_glass" />
+	
+	<bodies>
+		<body name="chest_bottom" enabled="true" template="static">
+			<object name="g_g" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="chest_top" enabled="true" template="static">
+			<object name="g_chest_top" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="graphics" culling_object="g_g" enabled="true">
+			<object	name="g_g"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+		<graphic_group name="chest_top" culling_object="g_chest_top" enabled="true">
+			<object	name="g_chest_top"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

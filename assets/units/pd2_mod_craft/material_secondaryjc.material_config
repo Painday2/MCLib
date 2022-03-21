@@ -1,0 +1,34 @@
+<materials version="3">
+    <material name="mtl_iron" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/goldingot"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material name="plank_oak" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/command_block"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material name="tripwire" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_craft/props/textures/tripwire_key"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <variable value="1 0.5 0.0" type="vector3" name="contour_color"/>
+    </material>
+    <material name="obsidian" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/bookshelf"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+    <material name="iron_block" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<diffuse_texture        file="units/pd2_mod_craft/props/textures/bookshelf"/>
+	<bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+	<material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+	<reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	<variable value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+</materials>

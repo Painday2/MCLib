@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="plank_oak" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/command_block"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <variable value="1 0.5 0.0" type="vector3" name="contour_color"/>
+    </material>
+</materials>

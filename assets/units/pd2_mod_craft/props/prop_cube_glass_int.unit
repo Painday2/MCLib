@@ -1,0 +1,16 @@
+<unit type="mine" slot="1">
+	<object file="units/pd2_mod_craft/props/prop_cube_glass_int" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+	    <!--<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="pick_lock_easy_no_skill" />
+			<var name="_interact_object" value="interact_locator"/>
+		</extension>
+		<extension name="interaction2" class="UseInteractionExt">
+			<var name="tweak_data" value="pick_lock_easy_no_skill" />
+			<var name="_interact_object" value="interact_locator_back"/>
+		</extension>-->
+	</extensions>
+</unit>

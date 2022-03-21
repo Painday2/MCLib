@@ -1,0 +1,68 @@
+<table>
+	<unit>
+		<variables>
+			<var_spawned_bag value="0"/>
+		</variables>
+		<filter name="'filter_bag_not_spawned'">
+			<check value="vars.var_spawned_bag == 0"/>
+		</filter>
+		<sequence editable_state="true" name="'spawn_bagable_items'" triggable="true">
+			<run_sequence filter="'filter_bag_not_spawned'" name=" 'int_seq_spawn_bag_v'..pick('1','2')"/>
+			<set_variables var_spawned_bag="1"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_bag_v1'" triggable="false">
+			<run_sequence name=" 'int_seq_spawn_'..pick('011','021')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_bag_v2'" triggable="false">
+			<run_sequence name=" 'int_seq_spawn_'..pick('012','022')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_011'" triggable="false"/>
+		<sequence editable_state="false" name="'int_seq_spawn_021'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_012'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_022'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+		</sequence>
+		<sequence editable_state="false" name="'diamond'" triggable="true">
+			<spawn_unit filter="'filter_bag_not_spawned'" name="'units/pd2_mod_craft/props/diamond'" position="object_pos('rp_ingot')" rotation="object_rot('rp_ingot')"/>
+			<set_variables var_spawned_bag="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'opened'" triggable="true">
+			<interaction enabled="false"/>
+			<sound action="'play'" event="'mc_glass_break'..pick('1','2','3')" object="'g_chest_top'"/>
+			<body enabled="true" name="'chest_bottom'"/>
+			<body enabled="false" name="'chest_top'"/>
+			<object enabled="true" name="'g_g'"/>
+			<object enabled="false" name="'g_chest_top'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_01'" operation="'add'" preset_name="'prop_ene_ntl'"/>
+		</sequence>
+		<sequence editable_state="true" name="'opened_int'" triggable="true">
+			<interaction enabled="false"/>
+			<body enabled="true" name="'chest_bottom'"/>
+			<body enabled="false" name="'chest_top'"/>
+			<object enabled="true" name="'g_g'"/>
+			<object enabled="false" name="'g_chest_top'"/>
+		</sequence>
+		<sequence editable_state="true" name="'closed'" triggable="true">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'chest_top'"/>
+			<body enabled="true" name="'chest_bottom'"/>
+			<object enabled="true" name="'g_chest_top'"/>
+			<object enabled="true" name="'g_g'"/>
+		</sequence>
+		<sequence name="'interact'" triggable="true">
+			<run_sequence name="'opened_int'"/>
+		</sequence>
+		<sequence name="'disable_interact'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<body editable_state="true" name=" 'chest_top' ">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name=" 'opened' "/>
+			</endurance>
+		</body>
+	</unit>
+</table>

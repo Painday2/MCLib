@@ -1,0 +1,14 @@
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_craft/props/diamond_pickaxe" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" 	class="UnitDamage" />
+		<extension name="interaction" class="MCInteractionExt" >
+			<var name="_remove_on_interact" value="true" />
+			<var name="tweak_data" value="pickup_pickaxe" />
+			<var name="_global_event" value="pickaxe" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>
