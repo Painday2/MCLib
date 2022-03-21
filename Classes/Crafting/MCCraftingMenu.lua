@@ -25,6 +25,8 @@ function CraftMenu:init()
 
     self:_init_bg()
     self:_init_craft_gui()
+
+    self.initialized = true
 end
 
 function CraftMenu:_init_bg()
@@ -605,42 +607,65 @@ function Inventory:init()
         --self.InventorySlots[1] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["oak_wood_plank"], math.random(50, 64))
         Inventory:AddToInventory(MCCrafting.tweak_data.items["cobblestone"], math.random(1, 64))
         Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
-        Inventory:AddToInventory(MCCrafting.tweak_data.items["stick"], math.random(1, 64))
+        --Inventory:AddToInventory(MCCrafting.tweak_data.items["netherite_axe"], math.random(1, 64))
     end
 end
 
 --item is the item from tweak_data.items
 function Inventory:AddToInventory(item, amount)
     local contains = self:ContainsItem(item)
-    local free_slot = self:HasFreeSlot()
+    local free_slot, slot_index = self:HasFreeSlot()
     if contains then
-        for k, v in pairs(contains) do
+        for _, v in pairs(contains) do
             if self.InventorySlots[v]:RoomLeftInStack(amount) then
-                log("adding to existing stack")
                 self.InventorySlots[v]:AddToStack(amount)
+                --Updates the UI slot if it exists
+                if CraftMenu.InventorySlot and CraftMenu.InventorySlot[v] then
+                    CraftMenu:UpdateUISlot(CraftMenu.InventorySlot[v], self.InventorySlots[v])
+                end
                 return
             end
         end
     end
 
     if free_slot then
-        log("free slot")
         free_slot:UpdateInventorySlot(item, amount)
+        --Updates the UI slot if it exists
+        if CraftMenu.InventorySlot and CraftMenu.InventorySlot[slot_index] then
+            CraftMenu:UpdateUISlot(CraftMenu.InventorySlot[slot_index], free_slot)
+        end
     end
 end
 
+function Inventory:RemoveFromInventory(item, amount)
+    local contains = self:ContainsItem(item)
+    if contains then
+        for k, v in pairs(contains) do
+            if self.InventorySlots[v]:RemoveFromStack(amount) then
+                return
+            end
+        end
+    end
+end
+
+---Returns the first slot that contains the item
+---@param item MCCrafting.InventorySlot
+---@return boolean @true if the item is in the inventory
 function Inventory:ContainsItem(item)
     local invSlot = self:find_all_values_index(self.InventorySlots, function(slot)
         return slot.item_data == item
     end)
-
+    log(tostring(#invSlot))
     return #invSlot > 0 and invSlot or false
 end
 
+---Returns the first slot that is empty
+---@return MCCrafting.InventorySlot @The first free slot
+---@return number @The index of the free slot
 function Inventory:HasFreeSlot()
     for i, v in pairs(self.InventorySlots) do
         if v.item_data == nil then
-            return v
+            return v, i
         end
     end
     return false
@@ -713,6 +738,18 @@ function InventorySlot:UpdateInventorySlot(item_data, amount)
     self.stack_size = item_data.max_stack_size > amount and amount or item_data.max_stack_size
 end
 
+---Returns the amount of items in the stack
+---@return number
+function InventorySlot:GetStackSize()
+    return self.stack_size or 0
+end
+
+---Returns the item data or nil if there is no data
+---@return table | nil
+function InventorySlot:GetItemData()
+    return self.item_data or nil
+end
+
 ---Checks if there is room for the amount of items in the stack
 ---Returns true if there is, otherwise returns false and the amount of items that can fit
 ---@param amount number
@@ -739,6 +776,8 @@ function InventorySlot:RemoveFromStack(amount)
     if self.stack_size <= 0 then
         self:ClearSlot()
     end
+
+    return true
 end
 
 ---Splits the stack into two stacks, the first stack has the amount of items, the second stack has the remainder

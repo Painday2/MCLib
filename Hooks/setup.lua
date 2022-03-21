@@ -3,6 +3,7 @@ function MCLib:Setup()
         "classes/Crafting/MCCrafting.lua",
         "classes/Crafting/MCCraftingTweakData.lua",
         "classes/Crafting/MCCraftingMenu.lua",
+        "classes/UnitStuff/MCInteractionExt.lua",
     }
 
     local elements = {
@@ -25,7 +26,7 @@ function MCLib:Setup()
         if Global.editor_mode then --insert to element table and load the editor file
             table.insert(BLE._config.MissionElements, "Element".. element)
             dofile(path .. "Editor" .. element .. ".lua")
-            log("[Warzone] Included Editor script " .. "Editor" .. element .. ".lua")
+            log("[MCLib] Included Editor script " .. "Editor" .. element .. ".lua")
         end
     end
 
@@ -41,4 +42,35 @@ if BeardLib then
     elseif current_level._mod and current_level._mod.global then
         MCLib:Setup()
     end
+end
+
+--based function
+function tprint(tbl, indent)
+	indent = indent or 0
+	local toprint = string.rep(" ", indent) .. "{\r\n"
+	indent = indent + 2
+
+	for k, v in pairs(tbl) do
+		toprint = toprint .. string.rep(" ", indent)
+
+		if type(k) == "number" then
+			toprint = toprint .. "[" .. k .. "] = "
+		elseif type(k) == "string" then
+			toprint = toprint .. k .. "= "
+		end
+
+		if type(v) == "number" then
+			toprint = toprint .. v .. ",\r\n"
+		elseif type(v) == "string" then
+			toprint = toprint .. "\"" .. v .. "\",\r\n"
+		elseif type(v) == "table" then
+			toprint = toprint .. tprint(v, indent + 2) .. ",\r\n"
+		else
+			toprint = toprint .. "\"" .. tostring(v) .. "\",\r\n"
+		end
+	end
+
+	toprint = toprint .. string.rep(" ", indent - 2) .. "}"
+
+	return toprint
 end
