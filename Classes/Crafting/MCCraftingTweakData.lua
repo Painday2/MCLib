@@ -8,6 +8,7 @@ end
 
 function MCCrafting.tweak_data:init_items()
     self.items = {}
+    self.equipment = {}
 
 
 
@@ -5075,6 +5076,14 @@ function MCCrafting.tweak_data:init_items()
         max_stack_size = 64,
     }
 
+    self.items.mc_drill = {
+        id = "mc_drill",
+        dn = "Improvised Mining Device",
+        texture = "guis/mc_drill_equipment",
+        texture_rect = {0, 0, 512, 512},
+        max_stack_size = 1,
+    }
+
     self.items.medium_amethyst_bud = {
         id = "medium_amethyst_bud",
         dn = "Medium Amethyst Bud",
@@ -10012,6 +10021,16 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
             {"oak_wood_plank", "oak_wood_plank", "oak_wood_plank"},
             {false,   "stick",  false },
             {false,   "stick",  false }
+
+        }
+
+    }
+
+    self.crafting_table.lever_recipe = {
+        output = {"lever", 1},
+        input = MCCrafting:new{
+            {"stick"},
+            {"cobblestone"}
 
         }
 

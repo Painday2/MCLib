@@ -413,6 +413,12 @@ function CraftMenu:OnOutputSlotClick(slot)
         return
     end
 
+    if self:AwardEquipment(output_slot) then
+        self:UpdateUISlot(slot, output_slot)
+        self:CraftSuccesful()
+        return
+    end
+
     if mouse_slot.item_data == nil then
         self:OnSlotClick(false, slot)
         self:CraftSuccesful()
@@ -449,6 +455,23 @@ function CraftMenu:CraftSuccesful()
         self:UpdateUISlot(self.CraftingSlot[i], slot)
     end
     self:CheckRecipe()
+end
+
+---Awards Equipment if the item is in the equipment table
+---@param item MCCrafting.InventorySlot
+function CraftMenu:AwardEquipment(item)
+    local equipment = table.find_value(MCCrafting.tweak_data.equipment, function (equipment)
+        return equipment == item.item_data.id
+    end)
+    if equipment then
+        managers.player:add_special({
+            name = item.item_data.id,
+            amount = item.item_data.amount
+        })
+        return true
+    end
+    log("false")
+    return false
 end
 
 function CraftMenu:SwapSlots(slot)
@@ -495,7 +518,7 @@ end
 
 function CraftMenu:UpdateUISlot(ui_slot, inv_slot)
     local item_data = inv_slot.item_data or {texture = atlas_texture, texture_rect = none_rect}
-    ui_slot:SetTextureRect(item_data.texture_rect)
+    ui_slot:SetImage(item_data.texture, item_data.texture_rect)
     ui_slot:SetHelp(item_data.dn) -- i am very mature.
     ui_slot:Items()[1]:SetText(tostring(inv_slot.stack_size > 1 and inv_slot.stack_size or ""))
 end
@@ -538,7 +561,7 @@ function CraftMenu:KeyPressed(o, k)
     --Reenable the mouse pointer when the menu is closed
 	if k == Idstring("esc") then
         managers.mouse_pointer._mouse:child("pointer"):set_alpha(1)
-
+        --clears the crafting table and sends everything to the inventory
         MCCrafting.Inventory:ClearCrafting()
 	end
 end
@@ -580,9 +603,9 @@ function Inventory:init()
 
     for i = 1, 5, 1 do
         --self.InventorySlots[1] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["oak_wood_plank"], math.random(50, 64))
-        --Inventory:AddToInventory(MCCrafting.tweak_data.items["cobblestone"], math.random(1, 64))
+        Inventory:AddToInventory(MCCrafting.tweak_data.items["cobblestone"], math.random(1, 64))
         Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
-        --Inventory:AddToInventory(MCCrafting.tweak_data.items["crafting_table"], math.random(1, 64))
+        Inventory:AddToInventory(MCCrafting.tweak_data.items["stick"], math.random(1, 64))
     end
 end
 
