@@ -10006,58 +10006,99 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
 
     self.crafting_table.stick_recipe = {
         output = {"stick", 4},
-        input = MCCrafting:new{
+        input = MCCrafting:new({
             {"oak_wood_plank"},
             {"oak_wood_plank"}
-
-        }
-
+        })
     }
 
 
     self.crafting_table.wooden_pickaxe_recipe = {
         output = {"wooden_pickaxe", 1},
-        input = MCCrafting:new{
+        input = MCCrafting:new({
             {"oak_wood_plank", "oak_wood_plank", "oak_wood_plank"},
             {false,   "stick",  false },
             {false,   "stick",  false }
-
-        }
-
+        })
     }
 
     self.crafting_table.lever_recipe = {
         output = {"lever", 1},
-        input = MCCrafting:new{
+        input = MCCrafting:new({
             {"stick"},
             {"cobblestone"}
-
-        }
-
+        })
     }
 
 
     self.crafting_table.stone_pickaxe_recipe = {
         output = {"stone_pickaxe", 1},
-        input = MCCrafting:new{
+        input = MCCrafting:new({
             {"cobblestone", "cobblestone", "cobblestone"},
             {false,   "stick",  false },
             {false,   "stick",  false }
-
-        }
-
+        })
     }
 
 
     self.crafting_table.stone_axe_recipe = {
         output = {"stone_axe", 1},
-        input = MCCrafting:new{
+        input = MCCrafting:new({
             {"cobblestone", "cobblestone"},
             {"cobblestone", "stick"},
             {false,         "stick"}
-
-        }
-
+        })
     }
 
+    self.crafting_table.netherite_ingot_recipe = {
+        output = {"netherite_ingot", 1},
+        input = MCCrafting:new({
+            {"netherite_scrap", "netherite_scrap", "netherite_scrap"},
+            {"netherite_scrap", "gold_ingot", "gold_ingot"},
+            {"gold_ingot", "gold_ingot"}
+        })
+    }
+
+    self.crafting_table.oak_plank_recipe = {
+        output = {"oak_wood_plank", 4},
+        input = MCCrafting:new({
+            {"oak_wood_log"}
+        })
+    }
+
+    self.crafting_table.furnace_recipe = {
+        output = {"furnace", 1},
+        input = MCCrafting:new({
+            {"cobblestone", "cobblestone", "cobblestone"},
+            {"cobblestone", false, "cobblestone"},
+            {"cobblestone", "cobblestone", "cobblestone"}
+        })
+    }
+
+    --bucket
+    self.crafting_table.bucket_recipe = {
+        output = {"bucket", 1},
+        input = MCCrafting:new({
+            {"iron_ingot", false, "iron_ingot"},
+            {false, "iron_ingot", false}
+        })
+    }
+
+    --blast furnace
+    self.crafting_table.blast_furnace_recipe = {
+        output = {"blast_furnace", 1},
+        input = MCCrafting:new({
+            {"iron_ingot", "iron_ingot", "iron_ingot"},
+            {"iron_ingot", "furnace", "iron_ingot"},
+            {"smooth_stone", "smooth_stone", "smooth_stone"}
+        })
+    }
+
+    --drill
+    self.crafting_table.drill_recipe = {
+        output = {"drill", 1},
+        input = MCCrafting:new({
+            {"blast_furnace", "diamond_pickaxe"},
+        })
+    }
 end
