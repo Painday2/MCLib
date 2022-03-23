@@ -83,7 +83,7 @@ function MCInteractionExt:selected(player, locator, hand_id)
 	if not self._tweak_data.mc_item_award and not tbl then
         --fuck this line lmao
         --changes the text depending on if there is an amount or not
-		text = (self._tweak_data.amount or 0) > 0 and "You are missing " .. tostring(self._tweak_data.amount) .. " " .. self._tweak_data.mc_item_consume:gsub("_", " ") .. " to use this." or "You are missing a " .. self._tweak_data.mc_item_consume:gsub("_", " ") .. " to use this."
+		text = (self._tweak_data.amount or 0) > 1 and "You need " .. tostring(self._tweak_data.amount) .. " " .. self._tweak_data.mc_item_consume:gsub("_", " ") .. " to use this." or "You are missing a " .. self._tweak_data.mc_item_consume:gsub("_", " ") .. " to use this."
 	end
 
 	if self._tweak_data.contour_preset or self._tweak_data.contour_preset_selected then

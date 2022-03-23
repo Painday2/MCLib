@@ -603,10 +603,10 @@ function Inventory:init()
     self.MouseSlot = MCCrafting.InventorySlot:new()
     self.OutputSlot = MCCrafting.InventorySlot:new()
 
-    for i = 1, 5, 1 do
+    for i = 1, 1, 1 do
         --self.InventorySlots[1] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["oak_wood_plank"], math.random(50, 64))
         Inventory:AddToInventory(MCCrafting.tweak_data.items["cobblestone"], math.random(1, 64))
-        Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
+        --Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
         --Inventory:AddToInventory(MCCrafting.tweak_data.items["netherite_axe"], math.random(1, 64))
     end
 end

@@ -10007,8 +10007,8 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
     self.crafting_table.stick_recipe = {
         output = {"stick", 4},
         input = MCCrafting:new({
-            {"oak_wood_plank"},
-            {"oak_wood_plank"}
+            {"oak_planks"},
+            {"oak_planks"}
         })
     }
 
@@ -10016,7 +10016,7 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
     self.crafting_table.wooden_pickaxe_recipe = {
         output = {"wooden_pickaxe", 1},
         input = MCCrafting:new({
-            {"oak_wood_plank", "oak_wood_plank", "oak_wood_plank"},
+            {"oak_planks", "oak_planks", "oak_planks"},
             {false,   "stick",  false },
             {false,   "stick",  false }
         })
@@ -10059,10 +10059,10 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
         })
     }
 
-    self.crafting_table.oak_plank_recipe = {
-        output = {"oak_wood_plank", 4},
+    self.crafting_table.oak_planks_recipe = {
+        output = {"oak_planks", 4},
         input = MCCrafting:new({
-            {"oak_wood_log"}
+            {"oak_log"}
         })
     }
 
@@ -10096,7 +10096,7 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
 
     --drill
     self.crafting_table.drill_recipe = {
-        output = {"drill", 1},
+        output = {"mc_drill", 1},
         input = MCCrafting:new({
             {"blast_furnace", "diamond_pickaxe"},
         })

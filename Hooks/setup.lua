@@ -1,4 +1,5 @@
 function MCLib:Setup()
+
     local classes = {
         "classes/Crafting/MCCrafting.lua",
         "classes/Crafting/MCCraftingTweakData.lua",
@@ -34,12 +35,14 @@ function MCLib:Setup()
     MCCrafting.Inventory:init()
 end
 
+MCLib.Maps = {"mc_branchbank"}
+
 if BeardLib then
     local current_level = BeardLib.current_level or ""
     log("current_level: " .. tostring(current_level))
     if current_level == "" and not current_level._mod then
         return
-    elseif current_level._mod and current_level._mod.global then
+    elseif current_level._mod and table.contains(MCLib.Maps, current_level._mod.global)  then
         MCLib:Setup()
     end
 end
