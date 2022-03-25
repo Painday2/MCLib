@@ -10012,16 +10012,6 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
         })
     }
 
-
-    self.crafting_table.wooden_pickaxe_recipe = {
-        output = {"wooden_pickaxe", 1},
-        input = MCCrafting:new({
-            {"oak_planks", "oak_planks", "oak_planks"},
-            {false,   "stick",  false },
-            {false,   "stick",  false }
-        })
-    }
-
     self.crafting_table.lever_recipe = {
         output = {"lever", 1},
         input = MCCrafting:new({
@@ -10031,22 +10021,12 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
     }
 
 
-    self.crafting_table.stone_pickaxe_recipe = {
-        output = {"stone_pickaxe", 1},
+    self.crafting_table.gold_axe_recipe = {
+        output = {"golden_axe", 1},
         input = MCCrafting:new({
-            {"cobblestone", "cobblestone", "cobblestone"},
-            {false,   "stick",  false },
-            {false,   "stick",  false }
-        })
-    }
-
-
-    self.crafting_table.stone_axe_recipe = {
-        output = {"stone_axe", 1},
-        input = MCCrafting:new({
-            {"cobblestone", "cobblestone"},
-            {"cobblestone", "stick"},
-            {false,         "stick"}
+            {"gold_ingot", "gold_ingot"},
+            {"gold_ingot", "stick"},
+            {false,        "stick"}
         })
     }
 

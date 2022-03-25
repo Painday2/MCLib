@@ -4,9 +4,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
-		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
-            <var name="_special_equipment" value="lava_bucket" />
-            <var name="_remove_on_interact" value="true" />
+		<extension name="interaction" class="MCInteractionExt" >
 			<var name="_interact_object" value="rp_root"/>
             <var name="tweak_data" value="mc_pickup_lava" />
         </extension>
