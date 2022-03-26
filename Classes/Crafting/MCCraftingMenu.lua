@@ -675,6 +675,7 @@ function Inventory:ClearCrafting()
     for i, v in pairs(self.CraftingSlots) do
         if v.item_data then
             self:AddToInventory(v.item_data, v.stack_size)
+            MCCrafting.Menu:ClearCraftingUISlot(i)
             v:ClearSlot()
         end
     end

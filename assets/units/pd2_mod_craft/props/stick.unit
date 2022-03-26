@@ -4,7 +4,7 @@
 	<extensions>
 		<extension class="ScriptUnitData" name="unit_data" />
 		<extension name="damage" class="UnitDamage" />
-		<extension name="interaction" class="mcItemInteractionExt" >
+		<extension name="interaction" class="UseInteractionExt" >
             <var name="tweak_data" value="pickup_tripwire_key" />
             <var name="_interact_object" value="interaction"/>
 			<var name="_special_equipment" value="stick" />

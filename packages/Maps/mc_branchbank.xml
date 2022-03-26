@@ -1,9 +1,4 @@
 <table directory="assets">
-	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
-		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
-		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
-		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
-	</add>
 	<texture path="guis/stick_equipment" unload="true"/>
 	<texture path="guis/cobblestone_equipment" unload="true"/>
 	<texture path="guis/ladder_equipment" unload="true"/>
