@@ -180,7 +180,7 @@
 			<object enabled="true" name="'pickaxe'"/>
 			<object enabled="true" name="'blastfurn'"/>
 		</sequence>
-		<sequence name=" 'interact' ">
+		<sequence name="'interact'">
 			<run_sequence filter="'filter_toggle_off'" name="'start_drill'"/>
 			<run_sequence filter="'filter_toggle_on'" name="'done_shock'"/>
 		</sequence>

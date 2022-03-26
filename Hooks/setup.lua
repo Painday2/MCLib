@@ -5,6 +5,7 @@ function MCLib:Setup()
         "classes/Crafting/MCCraftingTweakData.lua",
         "classes/Crafting/MCCraftingMenu.lua",
         "classes/UnitStuff/MCInteractionExt.lua",
+        "classes/UnitStuff/MCMissionElementInteractionExt.lua",
     }
 
     local elements = {
@@ -35,11 +36,11 @@ function MCLib:Setup()
     MCCrafting.Inventory:init()
 end
 
-MCLib.Maps = {"mc_branchbank"}
+MCLib.Maps = {"mc_branchbank", "mc_jewelrystore"}
 
 if BeardLib then
     local current_level = BeardLib.current_level or ""
-    log("current_level: " .. tostring(current_level))
+    log("current_level: " .. tostring(current_level._mod))
     if current_level == "" and not current_level._mod then
         return
     elseif current_level._mod and table.contains(MCLib.Maps, current_level._mod.global)  then
@@ -75,5 +76,5 @@ function tprint(tbl, indent)
 
 	toprint = toprint .. string.rep(" ", indent - 2) .. "}"
 
-	return toprint
+	log(toprint)
 end

@@ -256,16 +256,15 @@ function CraftMenu:_init_craft_gui()
     --self.CraftGUIMenu.MousePressed = CraftMenu.MousePressed
     --BeardLib:AddUpdater("MCCraftingMenu", ClassClbk(self, "Update"))
 end
-
+---Clears the UI slot by setting the image, text and help to nil
+---@param slot table @The slot to clear, Should be the menu item
 function CraftMenu:ClearUISlot(slot)
-    log("Clearing Inv Slot " .. slot.name)
-
-    if slot.name:find("InventorySlot") then
+    if slot and slot.name:find("InventorySlot") then
         self.InventorySlot[slot.id]:SetImage(atlas_texture, none_rect)
         self.InventorySlot[slot.id]:SetHelp()
         self.InventorySlotText[slot.id]:SetText("")
         MCCrafting.Inventory.InventorySlots[slot.id]:ClearSlot()
-    elseif slot.name:find("CraftingSlot") then
+    elseif slot and slot.name:find("CraftingSlot") then
         self.CraftingSlot[slot.id]:SetImage(atlas_texture, none_rect)
         self.CraftingSlot[slot.id]:SetHelp()
         self.CraftingSlotText[slot.id]:SetText("")
@@ -277,7 +276,8 @@ function CraftMenu:ClearUISlot(slot)
         MCCrafting.Inventory.OutputSlot:ClearSlot()
     end
 end
-
+---ClearUISlot but just takes a slot number for the crafting grid
+---@param slot number @The slot to update
 function CraftMenu:ClearCraftingUISlot(slot)
     log("Clearing Crafting Slot")
     self.CraftingSlot[slot]:SetImage(atlas_texture, none_rect)
@@ -679,6 +679,10 @@ function Inventory:ClearCrafting()
             v:ClearSlot()
         end
     end
+
+
+    self.OutputSlot:ClearSlot()
+    MCCrafting.Menu:ClearUISlot()
 end
 
 --find all values in table tbl that match the function fnc, returns the indexes of the values
