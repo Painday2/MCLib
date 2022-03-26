@@ -12,5 +12,30 @@
 			<sound id="mc_drill_jam"/>
 		</stop>
 
+		<sound id="mc_armor_take1" path="armorstand/hit1.ogg"/>
+		<sound id="mc_armor_take2" path="armorstand/hit2.ogg"/>
+		<sound id="mc_armor_take3" path="armorstand/hit3.ogg"/>
+		<sound id="mc_armor_take4" path="armorstand/hit4.ogg"/>
+		<sound id="mc_button_hit" path="button/click.ogg"/>
+		<sound id="mc_chest_open" path="chest/open.ogg"/>
+		<sound id="mc_door_open" path="door/door_open.ogg"/>
+		<sound id="mc_place_block" path="generic/place.ogg"/>
+		<sound id="mc_pickup" path="generic/pickup.ogg"/>
+		<sound id="mc_armor_take1" path="armorstand/hit1.ogg"/>
+		<sound id="mc_glass_break1" path="glass/glass1.ogg"/>
+		<sound id="mc_glass_break2" path="glass/glass2.ogg"/>
+		<sound id="mc_glass_break3" path="glass/glass3.ogg"/>
+		<sound id="mc_open_iron_door1" path="iron_door/open1.ogg"/>
+		<sound id="mc_open_iron_door2" path="iron_door/open2.ogg"/>
+		<sound id="mc_open_iron_door3" path="iron_door/open3.ogg"/>
+		<sound id="mc_open_iron_door4" path="iron_door/open4.ogg"/>
+		<sound id="mc_trapdoor_open1" path="trapdoor/open1.ogg"/>
+		<sound id="mc_trapdoor_open2" path="trapdoor/open2.ogg"/>
+		<sound id="mc_trapdoor_open3" path="trapdoor/open3.ogg"/>
+		<sound id="mc_trapdoor_open4" path="trapdoor/open4.ogg"/>
+		<sound id="mc_trapdoor_open5" path="trapdoor/open5.ogg"/>
+		<sound id="mc_trapdoor_close1" path="trapdoor/close1.ogg"/>
+		<sound id="mc_trapdoor_close2" path="trapdoor/close2.ogg"/>
+		<sound id="mc_trapdoor_close3" path="trapdoor/close3.ogg"/>
 	</Sounds>
 </mod>

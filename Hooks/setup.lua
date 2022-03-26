@@ -36,7 +36,7 @@ function MCLib:Setup()
     MCCrafting.Inventory:init()
 end
 
-MCLib.Maps = {"mc_branchbank", "mc_jewelrystore"}
+MCLib.Maps = {"mc_branchbank"}
 
 if BeardLib then
     local current_level = BeardLib.current_level or ""
@@ -44,6 +44,7 @@ if BeardLib then
     if current_level == "" and not current_level._mod then
         return
     elseif current_level._mod and table.contains(MCLib.Maps, current_level._mod.global)  then
+        ModCore:new(ModPath .. "sounds.xml", true, true)
         MCLib:Setup()
     end
 end

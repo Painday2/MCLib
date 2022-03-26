@@ -642,6 +642,10 @@ function Inventory:RemoveFromInventory(item, amount)
     if contains then
         for k, v in pairs(contains) do
             if self.InventorySlots[v]:RemoveFromStack(amount) then
+                --Updates the UI slot if it exists
+                if CraftMenu.InventorySlot and CraftMenu.InventorySlot[v] then
+                    CraftMenu:UpdateUISlot(CraftMenu.InventorySlot[v], self.InventorySlots[v])
+                end
                 return
             end
         end
