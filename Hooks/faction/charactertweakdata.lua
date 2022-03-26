@@ -5,6 +5,7 @@ function CharacterTweakData:character_map(...)
   	map.mc_branchbank = {
 		path = "units/pd2_mod_craft/characters/",
 		list = {
+			"civ_antvenom",
 			"civ_captainsparklez",
 			"civ_herobrine",
 			"civ_karacorvus",

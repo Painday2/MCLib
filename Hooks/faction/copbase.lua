@@ -36,6 +36,7 @@ local material_config_paths = {
 	"units/pd2_mod_craft/characters/ene_mc_zeal_swat/ene_mc_zeal_swat",
 	"units/pd2_mod_craft/characters/ene_mc_zeal_swat_heavy/ene_mc_zeal_swat_heavy",
 	"units/pd2_mod_craft/characters/ene_mc_zeal_swat_shield/ene_mc_zeal_swat_shield",
+	"units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom",
 	"units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez",
 	"units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine",
 	"units/pd2_mod_craft/characters/civ_karacorvus/civ_karacorvus",

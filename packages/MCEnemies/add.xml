@@ -271,6 +271,17 @@
 		<object path="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez" unload="true"/>
 	</add>
 	<add>
+		<unit load="true" path="units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_antvenom/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/civ_antvenom/body_nm" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/civ_antvenom/civ_antvenom" unload="true"/>
+	</add>
+	<add>
 		<unit load="true" path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine_husk" unload="true"/>
 		<texture path="units/pd2_mod_craft/characters/civ_herobrine/body_df" unload="true"/>
