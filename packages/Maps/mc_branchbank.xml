@@ -1,19 +1,6 @@
 <table directory="assets">
-	<texture path="guis/stick_equipment" unload="true"/>
-	<texture path="guis/cobblestone_equipment" unload="true"/>
-	<texture path="guis/ladder_equipment" unload="true"/>
-	<texture path="guis/lever_equipment" unload="true"/>
-	<texture path="guis/mc_drill_equipment" unload="true"/>
-	<texture path="guis/tnt_equipment" unload="true"/>
-	<texture path="guis/tripwire_equipment" unload="true"/>
-	<texture path="guis/sand_equipment" unload="true"/>
-	<texture path="guis/gunpowder_equipment" unload="true"/>
-	<texture path="guis/ass_storage_room" unload="true"/>
-	<texture path="guis/ass_resource_cache" unload="true"/>
-	<texture path="guis/ass_crafting_table" unload="true"/>
-	<texture path="guis/crafting_mechanics" unload="true"/>
-	<texture path="guis/resource_mechanics" unload="true"/>
 	<add>
+		<texture path="units/pd2_mod_craft/guis/mc_drill_icon" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_top"/>
 		<texture path="units/pd2_mod_craft/props/textures/clouds"/>
 		<texture path="units/pd2_mod_craft/props/textures/moon_phases"/>

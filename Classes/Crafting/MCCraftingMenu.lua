@@ -659,7 +659,7 @@ function Inventory:ContainsItem(item)
     local invSlot = self:find_all_values_index(self.InventorySlots, function(slot)
         return slot.item_data == item
     end)
-    log(tostring(#invSlot))
+
     return #invSlot > 0 and invSlot or false
 end
 

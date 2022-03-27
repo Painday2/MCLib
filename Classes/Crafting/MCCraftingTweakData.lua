@@ -862,7 +862,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.bow = {
         id = "bow",
-        dn = "Bow ",
+        dn = "Bow",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {110, 794, 32, 32},
         max_stack_size = 64,
@@ -1166,7 +1166,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.carrot_on_a_stick = {
         id = "carrot_on_a_stick",
-        dn = "Carrot On A Stick ",
+        dn = "Carrot On A Stick",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {182, 146, 32, 32},
         max_stack_size = 64,
@@ -1222,7 +1222,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.chainmail_boots = {
         id = "chainmail_boots",
-        dn = "Chainmail Boots ",
+        dn = "Chainmail Boots",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {182, 398, 32, 32},
         max_stack_size = 64,
@@ -1230,7 +1230,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.chainmail_chestplate = {
         id = "chainmail_chestplate",
-        dn = "Chainmail Chestplate ",
+        dn = "Chainmail Chestplate",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {182, 434, 32, 32},
         max_stack_size = 64,
@@ -1238,7 +1238,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.chainmail_helmet = {
         id = "chainmail_helmet",
-        dn = "Chainmail Helmet ",
+        dn = "Chainmail Helmet",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {182, 470, 32, 32},
         max_stack_size = 64,
@@ -1246,7 +1246,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.chainmail_leggings = {
         id = "chainmail_leggings",
-        dn = "Chainmail Leggings ",
+        dn = "Chainmail Leggings",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {182, 506, 32, 32},
         max_stack_size = 64,
@@ -1870,7 +1870,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.crossbow = {
         id = "crossbow",
-        dn = "Crossbow ",
+        dn = "Crossbow",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {290, 290, 32, 32},
         max_stack_size = 1,
@@ -2486,7 +2486,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_axe = {
         id = "diamond_axe",
-        dn = "Diamond Axe ",
+        dn = "Diamond Axe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 38, 32, 32},
         max_stack_size = 1,
@@ -2502,7 +2502,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_boots = {
         id = "diamond_boots",
-        dn = "Diamond Boots ",
+        dn = "Diamond Boots",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 110, 32, 32},
         max_stack_size = 1,
@@ -2510,7 +2510,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_chestplate = {
         id = "diamond_chestplate",
-        dn = "Diamond Chestplate ",
+        dn = "Diamond Chestplate",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 146, 32, 32},
         max_stack_size = 1,
@@ -2518,7 +2518,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_helmet = {
         id = "diamond_helmet",
-        dn = "Diamond Helmet ",
+        dn = "Diamond Helmet",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 182, 32, 32},
         max_stack_size = 1,
@@ -2526,7 +2526,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_hoe = {
         id = "diamond_hoe",
-        dn = "Diamond Hoe ",
+        dn = "Diamond Hoe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 218, 32, 32},
         max_stack_size = 1,
@@ -2558,7 +2558,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_pickaxe = {
         id = "diamond_pickaxe",
-        dn = "Diamond Pickaxe ",
+        dn = "Diamond Pickaxe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 362, 32, 32},
         max_stack_size = 1,
@@ -2566,7 +2566,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_shovel = {
         id = "diamond_shovel",
-        dn = "Diamond Shovel ",
+        dn = "Diamond Shovel",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 398, 32, 32},
         max_stack_size = 1,
@@ -2574,7 +2574,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.diamond_sword = {
         id = "diamond_sword",
-        dn = "Diamond Sword ",
+        dn = "Diamond Sword",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {398, 434, 32, 32},
         max_stack_size = 1,
@@ -2726,7 +2726,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.elytra = {
         id = "elytra",
-        dn = "Elytra ",
+        dn = "Elytra",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {434, 110, 32, 32},
         max_stack_size = 64,
@@ -3014,7 +3014,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.fishing_rod = {
         id = "fishing_rod",
-        dn = "Fishing Rod ",
+        dn = "Fishing Rod",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {470, 398, 32, 32},
         max_stack_size = 64,
@@ -3038,7 +3038,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.flint_and_steel = {
         id = "flint_and_steel",
-        dn = "Flint And Steel ",
+        dn = "Flint And Steel",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {470, 506, 32, 32},
         max_stack_size = 1,
@@ -3286,7 +3286,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_axe = {
         id = "golden_axe",
-        dn = "Golden Axe ",
+        dn = "Golden Axe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 614, 32, 32},
         max_stack_size = 1,
@@ -3294,7 +3294,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_boots = {
         id = "golden_boots",
-        dn = "Golden Boots ",
+        dn = "Golden Boots",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 650, 32, 32},
         max_stack_size = 1,
@@ -3310,7 +3310,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_chestplate = {
         id = "golden_chestplate",
-        dn = "Golden Chestplate ",
+        dn = "Golden Chestplate",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 722, 32, 32},
         max_stack_size = 1,
@@ -3318,7 +3318,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_helmet = {
         id = "golden_helmet",
-        dn = "Golden Helmet ",
+        dn = "Golden Helmet",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 758, 32, 32},
         max_stack_size = 1,
@@ -3326,7 +3326,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_hoe = {
         id = "golden_hoe",
-        dn = "Golden Hoe ",
+        dn = "Golden Hoe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 794, 32, 32},
         max_stack_size = 1,
@@ -3342,7 +3342,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_leggings = {
         id = "golden_leggings",
-        dn = "Golden Leggings ",
+        dn = "Golden Leggings",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 866, 32, 32},
         max_stack_size = 1,
@@ -3350,7 +3350,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_pickaxe = {
         id = "golden_pickaxe",
-        dn = "Golden Pickaxe ",
+        dn = "Golden Pickaxe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 902, 32, 32},
         max_stack_size = 1,
@@ -3358,7 +3358,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_shovel = {
         id = "golden_shovel",
-        dn = "Golden Shovel ",
+        dn = "Golden Shovel",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 938, 32, 32},
         max_stack_size = 1,
@@ -3366,7 +3366,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.golden_sword = {
         id = "golden_sword",
-        dn = "Golden Sword ",
+        dn = "Golden Sword",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {506, 974, 32, 32},
         max_stack_size = 1,
@@ -3830,7 +3830,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_axe = {
         id = "iron_axe",
-        dn = "Iron Axe ",
+        dn = "Iron Axe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 38, 32, 32},
         max_stack_size = 1,
@@ -3854,7 +3854,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_boots = {
         id = "iron_boots",
-        dn = "Iron Boots ",
+        dn = "Iron Boots",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 146, 32, 32},
         max_stack_size = 1,
@@ -3862,7 +3862,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_chestplate = {
         id = "iron_chestplate",
-        dn = "Iron Chestplate ",
+        dn = "Iron Chestplate",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 182, 32, 32},
         max_stack_size = 1,
@@ -3878,7 +3878,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_helmet = {
         id = "iron_helmet",
-        dn = "Iron Helmet ",
+        dn = "Iron Helmet",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 254, 32, 32},
         max_stack_size = 1,
@@ -3886,7 +3886,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_hoe = {
         id = "iron_hoe",
-        dn = "Iron Hoe ",
+        dn = "Iron Hoe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 290, 32, 32},
         max_stack_size = 1,
@@ -3910,7 +3910,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_leggings = {
         id = "iron_leggings",
-        dn = "Iron Leggings ",
+        dn = "Iron Leggings",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 398, 32, 32},
         max_stack_size = 1,
@@ -3934,7 +3934,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_pickaxe = {
         id = "iron_pickaxe",
-        dn = "Iron Pickaxe ",
+        dn = "Iron Pickaxe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 506, 32, 32},
         max_stack_size = 1,
@@ -3942,7 +3942,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_shovel = {
         id = "iron_shovel",
-        dn = "Iron Shovel ",
+        dn = "Iron Shovel",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 542, 32, 32},
         max_stack_size = 1,
@@ -3950,7 +3950,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.iron_sword = {
         id = "iron_sword",
-        dn = "Iron Sword ",
+        dn = "Iron Sword",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {614, 578, 32, 32},
         max_stack_size = 1,
@@ -4198,7 +4198,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.leather_boots = {
         id = "leather_boots",
-        dn = "Leather Boots ",
+        dn = "Leather Boots",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {650, 686, 32, 32},
         max_stack_size = 1,
@@ -4206,7 +4206,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.leather_chestplate = {
         id = "leather_chestplate",
-        dn = "Leather Chestplate ",
+        dn = "Leather Chestplate",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {650, 722, 32, 32},
         max_stack_size = 1,
@@ -4214,7 +4214,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.leather_helmet = {
         id = "leather_helmet",
-        dn = "Leather Helmet ",
+        dn = "Leather Helmet",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {650, 758, 32, 32},
         max_stack_size = 1,
@@ -4230,7 +4230,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.leather_leggings = {
         id = "leather_leggings",
-        dn = "Leather Leggings ",
+        dn = "Leather Leggings",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {650, 830, 32, 32},
         max_stack_size = 1,
@@ -5079,8 +5079,8 @@ function MCCrafting.tweak_data:init_items()
     self.items.mc_drill = {
         id = "mc_drill",
         dn = "Improvised Mining Device",
-        texture = "guis/mc_drill_equipment",
-        texture_rect = {0, 0, 512, 512},
+        texture = "units/pd2_mod_craft/guis/mc_drill_icon",
+        texture_rect = {0, 0, 64, 64},
         max_stack_size = 1,
     }
 
@@ -5478,7 +5478,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_axe = {
         id = "netherite_axe",
-        dn = "Netherite Axe ",
+        dn = "Netherite Axe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 362, 32, 32},
         max_stack_size = 1,
@@ -5494,7 +5494,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_boots = {
         id = "netherite_boots",
-        dn = "Netherite Boots ",
+        dn = "Netherite Boots",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 434, 32, 32},
         max_stack_size = 1,
@@ -5502,7 +5502,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_chestplate = {
         id = "netherite_chestplate",
-        dn = "Netherite Chestplate ",
+        dn = "Netherite Chestplate",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 470, 32, 32},
         max_stack_size = 1,
@@ -5510,7 +5510,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_helmet = {
         id = "netherite_helmet",
-        dn = "Netherite Helmet ",
+        dn = "Netherite Helmet",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 506, 32, 32},
         max_stack_size = 1,
@@ -5518,7 +5518,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_hoe = {
         id = "netherite_hoe",
-        dn = "Netherite Hoe ",
+        dn = "Netherite Hoe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 542, 32, 32},
         max_stack_size = 1,
@@ -5534,7 +5534,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_leggings = {
         id = "netherite_leggings",
-        dn = "Netherite Leggings ",
+        dn = "Netherite Leggings",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 614, 32, 32},
         max_stack_size = 1,
@@ -5542,7 +5542,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_pickaxe = {
         id = "netherite_pickaxe",
-        dn = "Netherite Pickaxe ",
+        dn = "Netherite Pickaxe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 650, 32, 32},
         max_stack_size = 1,
@@ -5558,7 +5558,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_shovel = {
         id = "netherite_shovel",
-        dn = "Netherite Shovel ",
+        dn = "Netherite Shovel",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 722, 32, 32},
         max_stack_size = 1,
@@ -5566,7 +5566,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.netherite_sword = {
         id = "netherite_sword",
-        dn = "Netherite Sword ",
+        dn = "Netherite Sword",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {866, 758, 32, 32},
         max_stack_size = 1,
@@ -7486,7 +7486,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.shears = {
         id = "shears",
-        dn = "Shears ",
+        dn = "Shears",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1658, 74, 32, 32},
         max_stack_size = 64,
@@ -7502,7 +7502,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.shield = {
         id = "shield",
-        dn = "Shield ",
+        dn = "Shield",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1730, 74, 32, 32},
         max_stack_size = 64,
@@ -8294,7 +8294,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.stone_axe = {
         id = "stone_axe",
-        dn = "Stone Axe ",
+        dn = "Stone Axe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1838, 146, 32, 32},
         max_stack_size = 1,
@@ -8334,7 +8334,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.stone_hoe = {
         id = "stone_hoe",
-        dn = "Stone Hoe ",
+        dn = "Stone Hoe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1190, 182, 32, 32},
         max_stack_size = 1,
@@ -8342,7 +8342,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.stone_pickaxe = {
         id = "stone_pickaxe",
-        dn = "Stone Pickaxe ",
+        dn = "Stone Pickaxe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1190, 218, 32, 32},
         max_stack_size = 1,
@@ -8358,7 +8358,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.stone_shovel = {
         id = "stone_shovel",
-        dn = "Stone Shovel ",
+        dn = "Stone Shovel",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1190, 290, 32, 32},
         max_stack_size = 1,
@@ -8382,7 +8382,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.stone_sword = {
         id = "stone_sword",
-        dn = "Stone Sword ",
+        dn = "Stone Sword",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1190, 398, 32, 32},
         max_stack_size = 1,
@@ -8798,7 +8798,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.trident = {
         id = "trident",
-        dn = "Trident ",
+        dn = "Trident",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1226, 686, 32, 32},
         max_stack_size = 64,
@@ -8878,7 +8878,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.turtle_helmet = {
         id = "turtle_helmet",
-        dn = "Turtle Helmet ",
+        dn = "Turtle Helmet",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1298, 218, 32, 32},
         max_stack_size = 64,
@@ -8982,7 +8982,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.warped_fungus_on_a_stick = {
         id = "warped_fungus_on_a_stick",
-        dn = "Warped Fungus On A Stick ",
+        dn = "Warped Fungus On A Stick",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1766, 218, 32, 32},
         max_stack_size = 64,
@@ -9302,7 +9302,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.wooden_axe = {
         id = "wooden_axe",
-        dn = "Wooden Axe ",
+        dn = "Wooden Axe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1730, 254, 32, 32},
         max_stack_size = 1,
@@ -9310,7 +9310,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.wooden_hoe = {
         id = "wooden_hoe",
-        dn = "Wooden Hoe ",
+        dn = "Wooden Hoe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1766, 254, 32, 32},
         max_stack_size = 1,
@@ -9318,7 +9318,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.wooden_pickaxe = {
         id = "wooden_pickaxe",
-        dn = "Wooden Pickaxe ",
+        dn = "Wooden Pickaxe",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1802, 254, 32, 32},
         max_stack_size = 1,
@@ -9326,7 +9326,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.wooden_shovel = {
         id = "wooden_shovel",
-        dn = "Wooden Shovel ",
+        dn = "Wooden Shovel",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1838, 254, 32, 32},
         max_stack_size = 1,
@@ -9334,7 +9334,7 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.wooden_sword = {
         id = "wooden_sword",
-        dn = "Wooden Sword ",
+        dn = "Wooden Sword",
         texture = "units/pd2_mod_craft/guis/inventory_atlas",
         texture_rect = {1874, 254, 32, 32},
         max_stack_size = 1,
