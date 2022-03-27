@@ -709,7 +709,7 @@ local InventorySlot = MCCrafting.InventorySlot
 --copied a bunch of this from a youtube tutorial for unity, lmao
 --https://www.youtube.com/watch?v=svoXugGLFwU
 
----comment
+---wanna take a guess at what a init function does?
 ---@param item_data table MCCrafting.tweak_data.items
 ---@param stack_size number
 function InventorySlot:init(item_data, stack_size)
@@ -725,9 +725,9 @@ function InventorySlot:ClearSlot()
     self.stack_size = 0
 end
 
----Assigns the data to the slot
----If the items are the same it will add the amount to the stack
----if not it will override any previous data and set the new item and amount
+---Assigns the data to the slot.
+---If the items are the same it will add the amount to the stack.
+---if not it will override any previous data and set the new item and amount.
 ---@param slot_data MCCrafting.InventorySlot
 function InventorySlot:AssignItem(slot_data)
     --If items are the same, add to the stack
