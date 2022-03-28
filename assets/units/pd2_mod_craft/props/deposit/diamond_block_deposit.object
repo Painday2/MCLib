@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_craft/props/deposit/diamond_block_deposit" orientation_object="rp_root" />
+    <sequence_manager file="units/pd2_mod_craft/props/deposit/diamond_block_deposit" />
+    <bodies>
+        <body name="static_body" enabled="true" template="static">
+            <object name="g_block" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="g_block" enabled="true" />
+    </decal_surfaces>
+    <graphics>
+        <object name="g_block" enabled="true" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

@@ -18,16 +18,16 @@
 			<run_sequence name=" 'int_seq_spawn_'..pick('L01','L02','L03','L04','L05','L06','L07','L08','L09','L10','L11','L12','L13','L14','L15','L16','L17','L18')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_u01'" triggable="false">
-            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/deposit/diamond_block_deposit'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_u02'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/iron_block_deposit'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_u03'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/gold_block_deposit'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_u04'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/emerald_block_deposit'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_u05'" triggable="false">
 			<spawn_unit name="'units/pd2_mod_craft/props/deposit/clock'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
@@ -73,16 +73,16 @@
 		</sequence>
 
 		<sequence editable_state="false" name="'int_seq_spawn_L01'" triggable="false">
-            <spawn_unit name="'units/pd2_mod_craft/props/diamond'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+            <spawn_unit name="'units/pd2_mod_craft/props/deposit/diamond_block_deposit'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_L02'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/iron_block_deposit'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_L03'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/gold_block_deposit'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_L04'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/emerald_block_deposit'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_L05'" triggable="false">
 			<spawn_unit name="'units/pd2_mod_craft/props/deposit/clock'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
