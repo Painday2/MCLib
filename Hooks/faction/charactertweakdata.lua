@@ -12,7 +12,8 @@ function CharacterTweakData:character_map(...)
 			"civ_pewdiepie",
 			"civ_sethbling",
 			"civ_shubbleyt",
-			"civ_technoblade"
+			"civ_technoblade",
+			"ene_mc_guard_1_pagerless" -- Exists here for custom hud naming support
 		}
 	}
 	map.mc_jewelrystorelvl = {
@@ -29,4 +30,3 @@ function CharacterTweakData:character_map(...)
 	}
   return map
 end
-

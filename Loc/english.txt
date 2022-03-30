@@ -16,6 +16,8 @@
 	"shovelforge_netherite_desc" : "This is a shovelforge item!",
 	"shovelforge_netherite_unlock" : "Complete the Hidden Achievement in The Harvest & Blockiees Heist",
 
+	"ene_mc_guard_1_pagerless" : "Paul Blart, Jewelry Cop",
+
 
 	"mc_branchbank_ach_name" : "Harvest & Blockiees",
 

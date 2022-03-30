@@ -2,6 +2,15 @@
 	<add>
 		<texture path="units/pd2_mod_craft/guis/inventory_atlas" unload="true"/>
 	</add>
+	<add path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield" type="unit">
+		<cooked_physics path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield_df" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield" unload="true"/>
+		<sequence_manager path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/minecraft_shield/minecraft_shield" unload="true"/>
+	</add>
     <add>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_city_heavy_g36/ene_mc_city_heavy_g36_husk" unload="true"/>
@@ -125,6 +134,17 @@
 		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
 		<model path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1" unload="true"/>
+	</add>
+	<add>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless_husk" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/body_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/body_nm" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless" unload="true"/>
+		<material_config path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless_contour" unload="true"/>
+		<cooked_physics path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless" unload="true"/>
+		<model path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless" unload="true"/>
+		<object path="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless" unload="true"/>
 	</add>
 	<add>
 		<unit load="true" path="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2" unload="true"/>

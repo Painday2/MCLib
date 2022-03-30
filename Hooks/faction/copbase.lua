@@ -17,6 +17,7 @@ local material_config_paths = {
 	"units/pd2_mod_craft/characters/ene_mc_fbi_swat_1/ene_mc_fbi_swat_1",
 	"units/pd2_mod_craft/characters/ene_mc_fbi_swat_2/ene_mc_fbi_swat_2",
 	"units/pd2_mod_craft/characters/ene_mc_guard_1/ene_mc_guard_1",
+	"units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless",
 	"units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2",
 	"units/pd2_mod_craft/characters/ene_mc_medic_m4/ene_mc_medic_m4",
 	"units/pd2_mod_craft/characters/ene_mc_medic_r870/ene_mc_medic_r870",
