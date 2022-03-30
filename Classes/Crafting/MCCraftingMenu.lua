@@ -560,6 +560,10 @@ function CraftMenu:MouseMoved(x, y)
 end
 
 function CraftMenu:KeyPressed(o, k)
+    --Disable player movement again if the chat has opened and a message is sent
+    if k == Idstring("enter") then
+        game_state_machine:current_state():set_controller_enabled(not managers.player:player_unit())
+    end
     --Reenable the mouse pointer when the menu is closed
 	if k == Idstring("esc") then
         managers.mouse_pointer._mouse:child("pointer"):set_alpha(1)

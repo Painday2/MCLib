@@ -31,8 +31,7 @@ end
 
 function MCMissionElementInteractionExt:interact(player, ...)
 	local res = MCMissionElementInteractionExt.super.interact(self, player, ...)
-	log("suffering")
-	log(res)
+
 	if res then
 		if self._tweak_data.mc_item_consume then
 			log("hi :)")

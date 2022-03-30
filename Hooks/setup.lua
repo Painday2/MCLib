@@ -10,6 +10,7 @@ function MCLib:Setup()
 
     local elements = {
         "MCCraftingMaterial",
+        "MCCheckItem"
     }
 
     for _, class in pairs(classes) do
