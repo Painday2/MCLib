@@ -1,3 +1,5 @@
+MCLib.Maps = {"mc_branchbank"}
+
 function MCLib:Setup()
 
     local classes = {
@@ -36,8 +38,6 @@ function MCLib:Setup()
     MCCrafting.tweak_data:init()
     MCCrafting.Inventory:init()
 end
-
-MCLib.Maps = {"mc_branchbank"}
 
 if BeardLib then
     local current_level = BeardLib.current_level or ""

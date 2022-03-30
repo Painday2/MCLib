@@ -415,6 +415,10 @@ function CraftMenu:OnOutputSlotClick(slot)
         return
     end
 
+    if output_slot.item_data.global_event then
+        managers.mission:call_global_event(output_slot.item_data.global_event, managers.player:player_unit())
+    end
+
     if self:AwardEquipment(output_slot) then
         self:UpdateUISlot(slot, output_slot)
         self:CraftSuccesful()

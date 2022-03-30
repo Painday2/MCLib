@@ -5082,6 +5082,7 @@ function MCCrafting.tweak_data:init_items()
         texture = "units/pd2_mod_craft/guis/mc_drill_icon",
         texture_rect = {0, 0, 64, 64},
         max_stack_size = 1,
+        global_event = "mc_drill"
     }
 
     self.items.medium_amethyst_bud = {

@@ -1,4 +1,5 @@
 <unit type="mine" slot="1">
+	<network sync="spawn"/>
 	<object file="units/pd2_mod_craft/props/deposit/emerald_block_deposit" />
 	<extensions>
 		<extension class="ScriptUnitData" name="unit_data" />
