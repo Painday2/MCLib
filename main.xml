@@ -1,6 +1,6 @@
 <mod name="MCLib" author="Mako / Painday 2" global_key="MCLib" min_lib_ver="3.0">
 
-    <!-- <AssetUpdates id="30552" version="1.0" provider="modworkshop"/>-->
+    <AssetUpdates id="36567" version="1.0" provider="modworkshop"/>
     <Package file="packages/MCEnemies/add.xml" id="modpackages/MCEnemies"/>
     <Package file="packages/Maps/mc_branchbank.xml" id="modpackages/mc_branchbank"/>
 
