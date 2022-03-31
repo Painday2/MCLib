@@ -18,8 +18,11 @@
 
 	"ene_mc_guard_1_pagerless" : "Paul Blart, Jewelry Cop",
 
-
+	
 	"mc_branchbank_ach_name" : "Harvest & Blockiees",
+	"ass_craft_mechanics" : "Crafting Guide",
+	"ass_resource_mechanics" : "Resource Guide",
+	"mc_bb_crafting_list" : "Crafting List",
 
 	"wood_name" : "Okay, Stanley.",
 	"wood_desc" : "Can't resist buttons, can you?",

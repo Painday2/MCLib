@@ -389,6 +389,8 @@
 		<object path="units/pd2_mod_craft/props/blastfurnace" unload="true"/>
 		<model path="units/pd2_mod_craft/props/blastfurnace" unload="true"/>
 		<texture path="guis/crafting_lists/mc_bb_crafting_list" unload="true"/>
+		<texture path="guis/ass_resource_guide" unload="true"/>
+		<texture path="guis/ass_crafting_guide" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/kitteh"/>
 		<texture path="units/pd2_mod_craft/props/textures/clock"/>
 		<texture path="units/pd2_mod_craft/props/textures/compass"/>
