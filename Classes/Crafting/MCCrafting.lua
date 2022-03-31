@@ -88,10 +88,6 @@ function MCCrafting:CheckRecipe()
         {tbl[7], tbl[8], tbl[9]}
     }
 
-	PrintTable(tbl[1])
-	PrintTable(tbl[2])
-	PrintTable(tbl[3])
-
     local crafting_grid = MCCrafting:new(tbl)
     for _, value in pairs(MCCrafting.tweak_data.crafting_table) do
 		local matches = crafting_grid:matches(value.input)

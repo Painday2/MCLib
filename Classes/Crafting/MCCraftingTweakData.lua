@@ -10,8 +10,6 @@ function MCCrafting.tweak_data:init_items()
     self.items = {}
     self.equipment = {}
 
-
-
     self.items.acacia_boat = {
         id = "acacia_boat",
         dn = "Acacia Boat",
@@ -10004,7 +10002,6 @@ end
 function MCCrafting.tweak_data:init_crafting_table_recipes()
     self.crafting_table = {}
 
-
     self.crafting_table.stick_recipe = {
         output = {"stick", 4},
         input = MCCrafting:new({
@@ -10028,6 +10025,15 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
             {"gold_ingot", "gold_ingot"},
             {"gold_ingot", "stick"},
             {false,        "stick"}
+        })
+    }
+
+    self.crafting_table.gold_axe_recipe_alt = {
+        output = {"golden_axe", 1},
+        input = MCCrafting:new({
+            {"gold_ingot", "gold_ingot"},
+            {"stick", "gold_ingot",},
+            {"stick"}
         })
     }
 

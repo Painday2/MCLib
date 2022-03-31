@@ -24,7 +24,7 @@ function ElementMCCheckItem:on_executed(instigator)
     end
 
     if not MCCrafting.Inventory:ContainsItem(item, amount) then
-        log("Not Enough.")
+        --log("Not Enough.")
         return
     end
 

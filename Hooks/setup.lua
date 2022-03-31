@@ -5,6 +5,8 @@ function MCLib:Setup()
     local classes = {
         "classes/Crafting/MCCrafting.lua",
         "classes/Crafting/MCCraftingTweakData.lua",
+        "classes/Crafting/MCCraftingInventory.lua",
+        "classes/Crafting/MCCraftingInventorySlot.lua",
         "classes/Crafting/MCCraftingMenu.lua",
         "classes/UnitStuff/MCInteractionExt.lua",
         "classes/UnitStuff/MCMissionElementInteractionExt.lua",
@@ -41,7 +43,6 @@ end
 
 if BeardLib then
     local current_level = BeardLib.current_level or ""
-    log("current_level: " .. tostring(current_level._mod))
     if current_level == "" and not current_level._mod then
         return
     elseif current_level._mod and table.contains(MCLib.Maps, current_level._mod.global)  then
@@ -50,7 +51,7 @@ if BeardLib then
     end
 end
 
---based function
+--[[based function
 function tprint(tbl, indent)
 	indent = indent or 0
 	local toprint = string.rep(" ", indent) .. "{\r\n"
@@ -79,4 +80,4 @@ function tprint(tbl, indent)
 	toprint = toprint .. string.rep(" ", indent - 2) .. "}"
 
 	log(toprint)
-end
+end]]

@@ -166,7 +166,6 @@
 		<model path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/prop_cube_glass_df" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<model path="units/pd2_mod_craft/props/stick"/>
 		<object path="units/pd2_mod_craft/props/stick"/>
@@ -255,7 +254,6 @@
 		<model path="units/pd2_mod_craft/props/tripwire_key"/>
 		<sequence_manager path="units/pd2_mod_craft/props/tripwire_key"/>
 		<texture path="units/pd2_mod_craft/props/textures/tripwire_key"/>
-		<sequence_manager path="units/pd2_mod_craft/props/diamond_head"/>
 		<texture path="units/pd2_mod_craft/props/textures/normal_cam"/>
 		<texture path="units/pd2_mod_craft/props/textures/titan_cam"/>
 		<texture path="units/pd2_mod_craft/props/textures/normal_cam_destroyed"/>
@@ -500,10 +498,6 @@
 		<texture path="guis/textures/Crafting_Table_GUI"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<gui force="true" load="true" path="guis/timer_gui" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 	</add>
 	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3" type="unit">
 		<material_config path="units/world/architecture/secret_stash/secret_stash_trash" unload="true"/>

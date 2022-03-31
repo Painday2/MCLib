@@ -2,29 +2,23 @@ MCInteractionExt = MCInteractionExt or class(UseInteractionExt)
 
 
 function MCInteractionExt:_interact_blocked(player)
-		local tbl = MCCrafting.Inventory:ContainsItem(MCCrafting.tweak_data.items[self._tweak_data.mc_item_consume] or "air") or false
-    log("hiiii")
+	local tbl = MCCrafting.Inventory:ContainsItem(MCCrafting.tweak_data.items[self._tweak_data.mc_item_consume] or "air") or false
+
     if self._tweak_data.mc_item_award then
-		log("help")
         return false
 	end
 
 	if tbl == false and not self._tweak_data.mc_item_consume then
-		log("help")
 		return false
 	end
 
     if tbl ~= false then --Check if the player has the item to be consumed, if so, return false
         for i, v in pairs(tbl) do
-			log(tostring(v))
-            log(tostring(MCCrafting.Inventory.InventorySlots[v]:GetStackSize() < (self._tweak_data.amount or 1)))
             if MCCrafting.Inventory.InventorySlots[v]:GetStackSize() < (self._tweak_data.amount or 1) then --checking if the stack size is less than the amount to be consumed
-                log("cbd2")
                 return true, false, nil
             end
         end
     else
-        log("hi1234231")
         return true, false, nil
     end
 end
@@ -37,10 +31,8 @@ function MCInteractionExt:interact(player)
 	UseInteractionExt.super.interact(self, player)
 
 	if self._tweak_data.mc_item_consume then
-        log("hi :)")
 		MCCrafting.Inventory:RemoveFromInventory(MCCrafting.tweak_data.items[self._tweak_data.mc_item_consume], self._tweak_data.amount or 1)
     elseif self._tweak_data.mc_item_award then
-        log("hi2 :)")
         MCCrafting.Inventory:AddToInventory(MCCrafting.tweak_data.items[self._tweak_data.mc_item_award], self._tweak_data.amount or 1)
 	end
 
