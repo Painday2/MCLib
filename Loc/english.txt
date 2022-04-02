@@ -24,6 +24,9 @@
 	"ass_resource_mechanics" : "Resource Guide",
 	"mc_bb_crafting_list" : "Crafting List",
 
+	"hud_action_place_block" : "Placing block...",
+	"taking_loot" : "Taking Loot...",
+
 	"wood_name" : "Okay, Stanley.",
 	"wood_desc" : "Can't resist buttons, can you?",
 	"wood_objective" : "Find the button and press it. \n\nThis will unlock the Wooden Melee Weapons.",
